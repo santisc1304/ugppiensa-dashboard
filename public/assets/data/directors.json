@@ -1,0 +1,704 @@
+{
+  "directors": [
+    {
+      "id": 1,
+      "direction": "Parafiscales",
+      "subdirection": null,
+      "git": "GIT Seguimiento y Apoyo a la Gestión",
+      "purpose": "Controlar términos de recursos legales, validar calidad de facilidades de pago y consolidar información técnica para la toma de decisiones directivas.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 2,
+      "direction": "Parafiscales",
+      "subdirection": null,
+      "git": "GIT Derechos de Petición",
+      "purpose": "Garantizar la calidad y oportunidad en las respuestas a derechos de petición y requerimientos de entes de control asignados a la dirección.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 3,
+      "direction": "Parafiscales",
+      "subdirection": null,
+      "git": "GIT Capacitación",
+      "purpose": "Diseñar y ejecutar programas de capacitación y sensibilización sobre cultura de cumplimiento y pago de obligaciones de la protección social.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 4,
+      "direction": "Parafiscales",
+      "subdirection": "Determinación de Obligaciones",
+      "git": "GIT Requerimiento",
+      "purpose": "Analizar soporte probatorio y elaborar actos administrativos como requerimientos para declarar o corregir dentro del proceso de determinación.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 5,
+      "direction": "Parafiscales",
+      "subdirection": "Determinación de Obligaciones",
+      "git": "GIT Sanciones",
+      "purpose": "Adelantar investigaciones por hechos sancionables y coordinar la expedición de pliegos de cargos y resoluciones sancionatorias.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 6,
+      "direction": "Parafiscales",
+      "subdirection": "Determinación de Obligaciones",
+      "git": "GIT Liquidaciones",
+      "purpose": "Coordinar la expedición de liquidaciones oficiales y proyectar requerimientos para verificar el cumplimiento de obligaciones parafiscales.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 7,
+      "direction": "Parafiscales",
+      "subdirection": "Determinación de Obligaciones",
+      "git": "GIT Completitud",
+      "purpose": "Actualizar el estado de completitud de expedientes y realizar cruces de información sobre las respuestas de los aportantes.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 8,
+      "direction": "Parafiscales",
+      "subdirection": "Determinación de Obligaciones",
+      "git": "GIT Transversales",
+      "purpose": "Asegurar la normalización de expedientes, controlar el proceso de notificaciones y gestionar la correspondencia de la subdirección.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 9,
+      "direction": "Parafiscales",
+      "subdirection": "Determinación de Obligaciones",
+      "git": "GIT Cumplimiento a Fallos",
+      "purpose": "Adelantar actuaciones y expedir resoluciones para dar cumplimiento a fallos judiciales de la Jurisdicción Contencioso Administrativa.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 10,
+      "direction": "Parafiscales",
+      "subdirection": "Integración del Sistema de Aportes Parafiscales",
+      "git": "GIT Denuncias",
+      "purpose": "Gestionar y administrar las denuncias y derechos de petición relacionados con el pago de aportes al Sistema de la Protección Social.",
+      "coordinator": "MARÍA TERESA PÉREZ CELY",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 11,
+      "direction": "Parafiscales",
+      "subdirection": "Integración del Sistema de Aportes Parafiscales",
+      "git": "GIT Gestión de Datos",
+      "purpose": "Liderar estrategias de entrega de información, administrar inventarios de bases de datos y mitigar riesgos de evasión mediante convenios.",
+      "coordinator": "JUAN DIEGO ESPINEL PINZÓN",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 12,
+      "direction": "Parafiscales",
+      "subdirection": "Integración del Sistema de Aportes Parafiscales",
+      "git": "GIT Comunicaciones Persuasivas",
+      "purpose": "Implementar acciones persuasivas masivas para detectar indicios de evasión y evaluar su efectividad económica y comportamental.",
+      "coordinator": "ALBA CECILIA RAMÍREZ BERNAL",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 13,
+      "direction": "Parafiscales",
+      "subdirection": "Integración del Sistema de Aportes Parafiscales",
+      "git": "GIT Seguimiento a las Administradoras",
+      "purpose": "Controlar la efectividad de requerimientos y el cumplimiento de estándares de cobro y uso de información por parte de las administradoras.",
+      "coordinator": "NORA ESPERANZA HENAO ÁVILA",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 14,
+      "direction": "Parafiscales",
+      "subdirection": "Cobranzas",
+      "git": "GIT Verificación de Pagos",
+      "purpose": "Monitorear y validar los pagos de los aportantes, liquidar intereses y controlar el cumplimiento de facilidades de pago.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 15,
+      "direction": "Parafiscales",
+      "subdirection": "Cobranzas",
+      "git": "GIT Orientación al Deudor y Gestión de Títulos",
+      "purpose": "Coordinar la etapa persuasiva de cobro, atender al ciudadano y gestionar títulos ejecutivos y actos de facilidades de pago.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 16,
+      "direction": "Parafiscales",
+      "subdirection": "Cobranzas",
+      "git": "GIT Gestión Coactiva",
+      "purpose": "Coordinar las etapas de cobro coactivo, decretar medidas cautelares e intervenir en procesos concursales para garantizar el pago.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 17,
+      "direction": "Parafiscales",
+      "subdirection": "Cobranzas",
+      "git": "GIT Control y Gestión de Datos",
+      "purpose": "Reportar indicadores de gestión, controlar el proceso de notificaciones de actos de cobranza e identificar procesos para investigación de bienes.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 18,
+      "direction": "Parafiscales",
+      "subdirection": "Cobranzas",
+      "git": "GIT Transversales",
+      "purpose": "Transmitir informes contables, gestionar la depuración de cartera de difícil cobro y responder acciones de tutela o requerimientos judiciales.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 19,
+      "direction": "Pensiones",
+      "subdirection": null,
+      "git": "GIT Instancia Superior, Sumas Superiores y Derechos de Petición",
+      "purpose": "Realizar el análisis técnico-jurídico de solicitudes pensionales en segunda instancia y gestionar respuestas a derechos de petición de la dirección.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 20,
+      "direction": "Pensiones",
+      "subdirection": "Normalización de Expedientes Pensionales",
+      "git": "GIT Aseguramiento de Operaciones",
+      "purpose": "Coordinar la supervisión de completitud documental y asegurar la actualización de procesos y sistemas de información de la subdirección.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 21,
+      "direction": "Pensiones",
+      "subdirection": "Determinación de Derechos Pensionales",
+      "git": "GIT Revisores",
+      "purpose": "Controlar la calidad y legalidad de los proyectos de actos administrativos de primera instancia y monitorear el cumplimiento de metas de gestión.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 22,
+      "direction": "Pensiones",
+      "subdirection": "Determinación de Derechos Pensionales",
+      "git": "GIT Sustanciadores",
+      "purpose": "Gestionar el análisis jurídico y la liquidación de solicitudes de reconocimiento de obligaciones pensionales en primera instancia.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 23,
+      "direction": "Pensiones",
+      "subdirection": "Determinación de Derechos Pensionales",
+      "git": "GIT Transversales",
+      "purpose": "Monitorear la respuesta a derechos de petición, gestionar incidentes de aplicativos pensionales y elaborar informes de gestión del área.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 24,
+      "direction": "Pensiones",
+      "subdirection": "Determinación de Derechos Pensionales",
+      "git": "GIT Fallos Judiciales y Sustanciación",
+      "purpose": "Estudiar fallos judiciales para el reconocimiento pensional y atender obligaciones derivadas de mandamientos de pago y sentencias.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 25,
+      "direction": "Pensiones",
+      "subdirection": "Nómina de Pensionados",
+      "git": "GIT Liquidación y Trámite de Novedades",
+      "purpose": "Ejecutar y controlar el subproceso de liquidación de nómina de pensionados y reportar novedades mensuales al pagador.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 26,
+      "direction": "Pensiones",
+      "subdirection": "Nómina de Pensionados",
+      "git": "GIT Derechos de Petición y Tutelas",
+      "purpose": "Revisar y gestionar las respuestas a solicitudes y tutelas relacionadas con la liquidación de nómina y devolución de aportes.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 27,
+      "direction": "Pensiones",
+      "subdirection": "Nómina de Pensionados",
+      "git": "GIT Revisión y Trámite de Incorporaciones y Novedades",
+      "purpose": "Coordinar y revisar las incorporaciones y novedades de nómina para validar su procedencia antes del reporte al FOPEP.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 28,
+      "direction": "Pensiones",
+      "subdirection": "Nómina de Pensionados",
+      "git": "GIT Gestión Post-Nómina y Obligaciones Pensionales",
+      "purpose": "Validar gestiones post-nómina, procesar cuotas partes pensionales y gestionar el cobro persuasivo de obligaciones pensionales.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 29,
+      "direction": "Jurídica",
+      "subdirection": null,
+      "git": "GIT Secretaría Técnica del Comité de Conciliación y Defensa Judicial",
+      "purpose": "Gestionar las sesiones del comité, elaborar actas, hacer seguimiento a sus decisiones e informar sobre acciones de repetición.",
+      "coordinator": "BERENICE CORTÉS RINCÓN",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 30,
+      "direction": "Jurídica",
+      "subdirection": null,
+      "git": "GIT Gestión Jurídica",
+      "purpose": "Velar por la unificación de criterios jurídicos, atender conceptos legales y proyectar actos administrativos generales o particulares.",
+      "coordinator": "HANS ROGER GUTIÉRREZ RODRÍGUEZ",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 31,
+      "direction": "Jurídica",
+      "subdirection": "Defensa Judicial Pensional",
+      "git": "GIT Tutelas",
+      "purpose": "Ejercer la representación judicial en acciones de tutela relacionadas con derechos pensionales y controlar el cumplimiento de sus fallos.",
+      "coordinator": "VIVIANA MARCELA CONTRERAS REYES",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 32,
+      "direction": "Jurídica",
+      "subdirection": "Defensa Judicial Pensional",
+      "git": "GIT Penales",
+      "purpose": "Formular denuncias por delitos en el proceso pensional y representar a la entidad en procesos penales y disciplinarios.",
+      "coordinator": "MARTHA CATALINA CORREDOR GUTIÉRREZ",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 33,
+      "direction": "Jurídica",
+      "subdirection": "Defensa Judicial Pensional",
+      "git": "GIT Defensa Judicial",
+      "purpose": "Ejercer la representación judicial y extrajudicial de la entidad en trámites judiciales relacionados con el reconocimiento de pensiones.",
+      "coordinator": "ASTRID NATALIA VELÁSQUEZ GONZÁLEZ",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 34,
+      "direction": "Jurídica",
+      "subdirection": "Defensa Judicial Pensional",
+      "git": "GIT Acciones de Lesividad",
+      "purpose": "Instaurar acciones de defensa para revocar reconocimientos pensionales indebidos y gestionar procesos de extensión de jurisprudencia.",
+      "coordinator": "SANTIAGO REBOLLEDO MANZANO",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 35,
+      "direction": "Jurídica",
+      "subdirection": "Defensa Judicial Pensional",
+      "git": "GIT Ejecutivos",
+      "purpose": "Supervisar el estudio de procesos ejecutivos, interponer excepciones y coordinar el cumplimiento de mandamientos de pago.",
+      "coordinator": "CAROLINA CORTES FUENTES",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 36,
+      "direction": "Jurídica",
+      "subdirection": "Defensa Judicial Pensional",
+      "git": "GIT Gestión Administrativa",
+      "purpose": "Coordinar el reparto de comunicaciones, liderar la creación de expedientes judiciales y gestionar novedades de personal del área.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 37,
+      "direction": "Jurídica",
+      "subdirection": "Defensa Judicial Pensional",
+      "git": "GIT Seguimiento a la Gestión",
+      "purpose": "Liderar informes de gestión, supervisar el registro de información jurídica y monitorear la gestión de riesgos de la subdirección.",
+      "coordinator": "SANDRA MILENA RUIZ MANRIQUE",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 38,
+      "direction": "Jurídica",
+      "subdirection": "Asesoría y Conceptualización Pensional",
+      "git": "GIT Análisis y Sustento Jurídico Pensional",
+      "purpose": "Coordinar la proyección de conceptos jurídicos, conflictos de competencia y respuestas con sustento legal para áreas misionales.",
+      "coordinator": "NUBIA ANGELICA SABOGAL BOLIVAR",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 39,
+      "direction": "Jurídica",
+      "subdirection": "Asesoría y Conceptualización Pensional",
+      "git": "GIT Doctrina y Unificación de Criterios",
+      "purpose": "Coordinar propuestas normativas, diseñar políticas de prevención del daño antijurídico y unificar criterios de defensa.",
+      "coordinator": "YENNY PAOLA PELAEZ ZAMBRANO",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 40,
+      "direction": "Jurídica",
+      "subdirection": "Asesoría y Conceptualización Pensional",
+      "git": "GIT Conciliaciones Judiciales, Extrajudiciales y Acciones de Repetición",
+      "purpose": "Gestionar audiencias de conciliación y preparar ponencias sobre la procedencia de la acción de repetición o llamamiento en garantía.",
+      "coordinator": "MARIA HELENA PREDEROS MUÑOZ",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 41,
+      "direction": "Jurídica",
+      "subdirection": "Jurídica de Parafiscales",
+      "git": "GIT Actos Administrativos (1)",
+      "purpose": "Revisar actos administrativos que resuelven recursos de reconsideración y solicitudes de revocatoria directa en materia parafiscal.",
+      "coordinator": "RICARDO MAYORGA GUTIÉRREZ",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 42,
+      "direction": "Jurídica",
+      "subdirection": "Jurídica de Parafiscales",
+      "git": "GIT Actos Administrativos (2)",
+      "purpose": "Velar por la aplicación de líneas jurídicas en análisis contables y liderar la capacitación técnica del equipo de contadores.",
+      "coordinator": "MARÍA ALEJANDRA FELICIANO FUERTES",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 43,
+      "direction": "Jurídica",
+      "subdirection": "Jurídica de Parafiscales",
+      "git": "GIT Defensa Judicial",
+      "purpose": "Ejercer la representación judicial en procesos de determinación y sancionatorios, y atender acciones de tutela contra la unidad.",
+      "coordinator": "ANA CRISTINA CÁCERES",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 44,
+      "direction": "Jurídica",
+      "subdirection": "Jurídica de Parafiscales",
+      "git": "GIT Beneficios Tributarios y Apoyo a la Gestión",
+      "purpose": "Proyectar respuestas sobre beneficios tributarios, brindar soporte administrativo a la subdirección y administrar sus bases de datos.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 45,
+      "direction": "Jurídica",
+      "subdirection": "Jurídica de Parafiscales",
+      "git": "GIT Análisis y Sustento Jurídico",
+      "purpose": "Coordinar la elaboración de proyectos de ley y decretos, y unificar criterios sobre normas de seguridad social para la entidad.",
+      "coordinator": "SELMA BERMUDEZ DAZA",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 46,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": null,
+      "git": "GIT Control Interno Disciplinario",
+      "purpose": "Ejercer la función disciplinaria en etapa de instrucción y proponer estrategias de prevención contra la corrupción en la entidad.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 47,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Administrativa",
+      "git": "GIT Recursos Físicos",
+      "purpose": "Administrar sedes, inventarios y proveer bienes y servicios logísticos (vigilancia, aseo, transporte) necesarios para la operación.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 48,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Administrativa",
+      "git": "GIT Contratos",
+      "purpose": "Coordinar y ejecutar los procesos de contratación estatal en sus etapas precontractual, contractual y postcontractual.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 49,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Administrativa",
+      "git": "GIT Estudios de Mercado",
+      "purpose": "Elaborar estudios de mercado para contrataciones y coordinar la ejecución y actualización del Plan Anual de Adquisiciones.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 50,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Financiera",
+      "git": "GIT Presupuesto",
+      "purpose": "Registrar y controlar apropiaciones presupuestales, garantizar la ejecución de recursos y preparar anteproyectos de presupuesto.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 51,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Financiera",
+      "git": "GIT Contabilidad",
+      "purpose": "Preparar estados financieros, mantener actualizada la información contable y responder ante organismos de control.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 52,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Financiera",
+      "git": "GIT Tesorería",
+      "purpose": "Responder por pagos de obligaciones, administrar el PAC y controlar los recursos de la Caja Menor de la entidad.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 53,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Financiera",
+      "git": "GIT Central de Cuentas",
+      "purpose": "Elaborar cuentas por pagar, liquidar descuentos tributarios y gestionar la creación de terceros en el sistema SIIF Nación.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 54,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Gestión Humana",
+      "git": "GIT Ciclo Laboral",
+      "purpose": "Ejecutar procesos de selección, vinculación, administración de planta y desvinculación de los funcionarios de la entidad.",
+      "coordinator": "JOSÉ FRANCISCO BRITTO",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 55,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Gestión Humana",
+      "git": "GIT Administración de Servicios al Personal",
+      "purpose": "Liquidar nómina y aportes de seguridad social de funcionarios, y proyectar actos de prestaciones y vacaciones.",
+      "coordinator": "YANETH ANZOLA VARELA",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 56,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Gestión Humana",
+      "git": "GIT Desarrollo y Satisfacción del Talento Humano",
+      "purpose": "Planear capacitación, bienestar social, evaluar desempeño y gestionar el sistema de seguridad y salud en el trabajo.",
+      "coordinator": "NOHORA FERNANDA TORRES RAMÍREZ",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 57,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Gestión Humana",
+      "git": "GIT Transversales",
+      "purpose": "Brindar soporte jurídico a la subdirección, responder derechos de petición y revisar actos administrativos de gestión humana.",
+      "coordinator": "SANDRA JULIANA BARRAGÁN",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 58,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Gestión Documental",
+      "git": "GIT Abastecimiento",
+      "purpose": "Liderar la organización, virtualización y custodia de archivos, y atender solicitudes de préstamo de expedientes físicos.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 59,
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Gestión Documental",
+      "git": "GIT Operaciones",
+      "purpose": "Coordinar la radicación y distribución de correspondencia de entrada y salida, asegurando su trazabilidad y digitalización.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 60,
+      "direction": "Seguimiento y Mejoramiento de Procesos",
+      "subdirection": null,
+      "git": "GIT Seguridad de la Información",
+      "purpose": "Proponer lineamientos de seguridad, monitorear riesgos de información y fortalecer la cultura de seguridad en servidores y proveedores.",
+      "coordinator": "ARNOL GUERRERO CALDERÓN",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 61,
+      "direction": "Seguimiento y Mejoramiento de Procesos",
+      "subdirection": null,
+      "git": "GIT Gestión de Procesos y Riesgos",
+      "purpose": "Proponer mejoras a procesos misionales y administrar el sistema de riesgos de la entidad incluyendo su valoración y monitoreo.",
+      "coordinator": "GRACE PRISCILA JIMÉNEZ CUELLAR",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 62,
+      "direction": "Estrategia y Evaluación",
+      "subdirection": null,
+      "git": "GIT Comunicaciones",
+      "purpose": "Coordinar programas de comunicación interna y externa, gestionar relaciones con medios y estructurar publicaciones oficiales.",
+      "coordinator": "IVETH SOFIA GÓMEZ ROMERO",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 63,
+      "direction": "Estrategia y Evaluación",
+      "subdirection": null,
+      "git": "GIT Planeación y Proyectos",
+      "purpose": "Diseñar planes estratégicos, definir indicadores de gestión, formular proyectos y elaborar informes de rendición de cuentas.",
+      "coordinator": "GERMÁN VEGA RODRÍGUEZ",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 64,
+      "direction": "Estrategia y Evaluación",
+      "subdirection": null,
+      "git": "GIT Caracterización y Análisis de la Evasión",
+      "purpose": "Realizar modelos estadísticos para identificar evasión y proponer programas de fiscalización y tratamiento persuasivo.",
+      "coordinator": "ANGIE JULIETH GARCÍA ECHAVARRÍA",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 65,
+      "direction": "Gestión de Tecnologías de la Información",
+      "subdirection": null,
+      "git": "GIT Infraestructura de Tecnología",
+      "purpose": "Administrar plataformas tecnológicas, gestionar la mesa de ayuda y optimizar redes y comunicaciones de la entidad.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 66,
+      "direction": "Gestión de Tecnologías de la Información",
+      "subdirection": null,
+      "git": "GIT Sistemas de Información",
+      "purpose": "Realizar el desarrollo y mantenimiento de software, y gestionar el soporte técnico de los sistemas institucionales.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 67,
+      "direction": "Gestión de Tecnologías de la Información",
+      "subdirection": null,
+      "git": "GIT Arquitectura de Soluciones de TI",
+      "purpose": "Definir lineamientos de arquitectura tecnológica y controlar proyectos de tecnología según requerimientos funcionales de las áreas.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 68,
+      "direction": "Servicios Integrados de Atención",
+      "subdirection": null,
+      "git": "GIT Gestión de Canales de Atención",
+      "purpose": "Mantener el modelo de atención multicanal, monitorear el CRM y supervisar indicadores de calidad y satisfacción del servicio.",
+      "coordinator": "MÓNICA BRICEÑO ALVARADO",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 69,
+      "direction": "Servicios Integrados de Atención",
+      "subdirection": null,
+      "git": "GIT Relacionamiento y Gestión Transversal",
+      "purpose": "Liderar la gestión de PQRSFD y fortalecer la cultura de servicio al ciudadano mediante mediciones de satisfacción.",
+      "coordinator": "VICTOR IVAN OLARTE HERRERA",
+      "location": null,
+      "station": null
+    },
+    {
+      "id": 70,
+      "direction": "Servicios Integrados de Atención",
+      "subdirection": null,
+      "git": "GIT Gestión de Back Office",
+      "purpose": "Supervisar procesos transversales de respuesta a solicitudes, notificaciones y articular la gestión con direcciones misionales.",
+      "coordinator": null,
+      "location": null,
+      "station": null
+    }
+  ]
+}

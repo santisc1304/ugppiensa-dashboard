@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "situation": "Caso 1: Recibes reporte de una empresa con inconsistencias muy graves en el pago de aportes a salud. ¿A quién asignas investigar?",
+      "direction": "Parafiscales",
+      "subdirection": "Determinación de Obligaciones",
+      "git": "GIT Fiscalización",
+      "decoys_directions": [
+        "Pensiones",
+        "Jurídica",
+        "Dirección General"
+      ],
+      "decoys_subdirections": [
+        "Cobranzas",
+        "Defensa Judicial Pensional",
+        "Financiera"
+      ],
+      "decoys_gits": [
+        "GIT Cobro Persuasivo",
+        "GIT Tutelas",
+        "GIT Nómina"
+      ],
+      "explanation": "El proceso de verificación e investigación inicial de aportes le corresponde a Determinación, específicamente Fiscalización."
+    },
+    {
+      "id": 2,
+      "situation": "Caso 2: Tras la investigación, la empresa es sancionada pero se niega a pagar voluntariamente. ¿Qué área inicia el acercamiento para el pago?",
+      "direction": "Parafiscales",
+      "subdirection": "Cobranzas",
+      "git": "GIT Cobro Persuasivo",
+      "decoys_directions": [
+        "Jurídica",
+        "Dirección General",
+        "Pensiones"
+      ],
+      "decoys_subdirections": [
+        "Gestión Humana",
+        "Jurídica de Parafiscales",
+        "Administrativa"
+      ],
+      "decoys_gits": [
+        "GIT Coactivo",
+        "GIT Notificaciones",
+        "GIT Compras"
+      ],
+      "explanation": "Antes de embargar, Cobranzas usa el GIT de Cobro Persuasivo para invitar al deudor a normalizar su estado."
+    },
+    {
+      "id": 3,
+      "situation": "Caso 3: La empresa decide demandar a la UGPP para tumbar el proceso de cobro ante un juez. ¿Quién nos defiende?",
+      "direction": "Jurídica",
+      "subdirection": "Jurídica de Parafiscales",
+      "git": "GIT Defensa Judicial",
+      "decoys_directions": [
+        "Pensiones",
+        "Parafiscales",
+        "Soporte y Desarrollo Organizacional"
+      ],
+      "decoys_subdirections": [
+        "Defensa Judicial Pensional",
+        "Cobranzas",
+        "Asesoría y Conceptualización Pensional"
+      ],
+      "decoys_gits": [
+        "GIT Tutelas",
+        "GIT Fiscalización",
+        "GIT Contabilidad"
+      ],
+      "explanation": "Al ser un tema de aportes, la Subdirección Jurídica de Parafiscales (Defensa Judicial) nos representa ante los jueces."
+    },
+    {
+      "id": 4,
+      "situation": "Caso 4: ¡El juez falla a favor de la UGPP! La empresa paga la multa. ¿Qué área registra ese dinero recuperado?",
+      "direction": "Soporte y Desarrollo Organizacional",
+      "subdirection": "Financiera",
+      "git": "GIT Contabilidad",
+      "decoys_directions": [
+        "Parafiscales",
+        "Jurídica",
+        "Pensiones"
+      ],
+      "decoys_subdirections": [
+        "Administrativa",
+        "Cobranzas",
+        "Integración del Sistema"
+      ],
+      "decoys_gits": [
+        "GIT Presupuesto",
+        "GIT Tesorería",
+        "GIT Cobro Persuasivo"
+      ],
+      "explanation": "Los registros financieros y estados contables de los recursos recuperados son tarea de la Subdirección Financiera (Contabilidad)."
+    }
+  ]
+}

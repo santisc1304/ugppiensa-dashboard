@@ -1,0 +1,1410 @@
+{
+  "institutional": [
+    {
+      "id": 1,
+      "category": "Dirección General",
+      "git": "Generalidades de la Resolución",
+      "question": "¿Cuál es el objeto principal de la Resolución 0059 del 28 de enero de 2026?",
+      "options": [
+        "Aprobar la estructura salarial de la entidad",
+        "Establecer los grupos internos de trabajo en la UGPP",
+        "Definir el reglamento interno de trabajo"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "La Resolución 0059 de 2026 establece de forma unificada e integral los grupos internos de trabajo en la UGPP ."
+    },
+    {
+      "id": 2,
+      "category": "Dirección General",
+      "git": "Generalidades de la Resolución",
+      "question": "¿Qué norma legal faculta al Director General para crear y organizar los grupos internos de trabajo en la UGPP?",
+      "options": [
+        "Artículo 115 de la Ley 489 de 1998 y Num. 12 Art. 9 del Decreto 0575 de 2013",
+        "Ley 100 de 1993",
+        "Ley 1607 de 2012"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "El marco normativo para la creación de los GIT proviene de la Ley 489 de 1998 y el Decreto 0575 de 2013 ."
+    },
+    {
+      "id": 3,
+      "category": "Dirección General",
+      "git": "Generalidades de la Resolución",
+      "question": "Según el Decreto 2489 de 2006, ¿cuál es el número mínimo de empleados para integrar un grupo interno de trabajo?",
+      "options": [
+        "2 empleados",
+        "3 empleados",
+        "4 empleados"
+      ],
+      "answer": 2,
+      "difficulty": "medio",
+      "justification": "El artículo 8 del Decreto 2489 de 2006 exige que la integración no sea inferior a cuatro (4) empleados ."
+    },
+    {
+      "id": 4,
+      "category": "Dirección General",
+      "git": "Generalidades de la Resolución",
+      "question": "¿Qué reconocimiento económico mensual reciben los servidores públicos que coordinan un GIT (no perteneciente al nivel Directivo o Asesor)?",
+      "options": [
+        "10% adicional a la asignación básica",
+        "20% adicional a la asignación básica",
+        "30% adicional a la asignación básica"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Conforme al Decreto 611 de 2025, el reconocimiento por coordinación corresponde al 20% adicional de la asignación básica ."
+    },
+    {
+      "id": 5,
+      "category": "Dirección General",
+      "git": "Generalidades de la Resolución",
+      "question": "¿Cuál es la condición para que un coordinador de GIT sea relevado de su designación según el Parágrafo del Artículo 3°?",
+      "options": [
+        "Obtener calificación igual o inferior al 79% en evaluación de desempeño durante 6 meses",
+        "Faltar a dos sesiones del Comité Directivo",
+        "Tener más de 3 incapacidades en el año"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "El Parágrafo del Artículo 3° estipula el relevo si se recibe calificación igual o inferior al 79% durante un periodo de 6 meses ."
+    },
+    {
+      "id": 6,
+      "category": "Dirección General",
+      "git": "Generalidades de la Resolución",
+      "question": "¿Qué resolución anterior deroga expresamente la Resolución 0059 de 2026?",
+      "options": [
+        "Resolución 748 de 2021",
+        "Resolución 328 del 02 de abril de 2024",
+        "Resolución 2978 de 2023"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "El Artículo 5° deroga expresamente la Resolución No. 328 del 02 de abril de 2024 ."
+    },
+    {
+      "id": 7,
+      "category": "Dirección de Parafiscales",
+      "git": "Seguimiento y Apoyo a la Gestión",
+      "question": "¿Qué función cumple el GIT de Seguimiento y Apoyo a la Gestión frente a los recursos interpuestos por aportantes?",
+      "options": [
+        "Resolverlos en primera instancia",
+        "Controlar los términos y el trámite de los recursos de reconsideración y revocatorias directas",
+        "Remitirlos a la Superintendencia Financiera"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Su función es controlar los términos y el trámite de los recursos de reconsideración y revocatorias directas interueltos por aportantes ."
+    },
+    {
+      "id": 8,
+      "category": "Dirección de Parafiscales",
+      "git": "Seguimiento y Apoyo a la Gestión",
+      "question": "¿Qué grupo valida la calidad de las Facilidades y Acuerdos de Pago que escala Cobranzas para la firma del Director de Parafiscales?",
+      "options": [
+        "GIT de Sanciones",
+        "GIT de Seguimiento y Apoyo a la Gestión",
+        "GIT de Doctrina"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Gestiona la revisión y validación de calidad de Facilidades y Acuerdos de Pago para firma del Director de Parafiscales ."
+    },
+    {
+      "id": 9,
+      "category": "Dirección de Parafiscales",
+      "git": "Derechos de Petición",
+      "question": "¿Cuál es la responsabilidad principal del GIT de Derechos de Petición de la Dirección de Parafiscales?",
+      "options": [
+        "Proyectar fallos judiciales pensionales",
+        "Garantizar la calidad, claridad y oportunidad en respuestas a derechos de petición asignados a la Dirección",
+        "Realizar cobro coactivo"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Su misión es garantizar y verificar la calidad, claridad y oportunidad de las respuestas a derechos de petición de su área ."
+    },
+    {
+      "id": 10,
+      "category": "Dirección de Parafiscales",
+      "git": "Capacitación",
+      "question": "¿Cuál es el objetivo de las capacitaciones diseñadas por el GIT de Capacitación de la Dirección de Parafiscales?",
+      "options": [
+        "Capacitar exclusivamente al personal de nómina pensional",
+        "Generar un cambio de cultura en el pago completo y oportuno de las obligaciones del Sistema de la Protección Social",
+        "Formar en litigio ante altas cortes"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Busca promover el cambio de cultura en el pago completo y oportuno de contribuciones parafiscales ."
+    },
+    {
+      "id": 11,
+      "category": "Subdirección de Determinación de Obligaciones",
+      "git": "Requerimiento",
+      "question": "¿Qué acto administrativo elabora el GIT de Requerimiento de la Subdirección de Determinación de Obligaciones?",
+      "options": [
+        "Resoluciones de pensión de vejez",
+        "Requerimientos para declarar o corregir y autos de archivo",
+        "Mandamientos de pago coactivo"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Elabora los requerimientos para declarar o corregir, autos de archivo y demás actos de la fase inicial de determinación ."
+    },
+    {
+      "id": 12,
+      "category": "Subdirección de Determinación de Obligaciones",
+      "git": "Requerimiento",
+      "question": "¿Ante quién puede solicitar el GIT de Requerimiento la realización de inspecciones tributarias?",
+      "options": [
+        "Ante la Coordinación correspondiente para recopilar pruebas sustentatorias de omisión o inexactitud",
+        "Ante la Fiscalía General de la Nación",
+        "Ante el Ministerio del Trabajo"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Solicita a la coordinación correspondiente inspecciones tributarias para sustentar omisión o indebida liquidación ."
+    },
+    {
+      "id": 13,
+      "category": "Subdirección de Determinación de Obligaciones",
+      "git": "Sanciones",
+      "question": "¿Qué conductas investiga el GIT de Sanciones según el numeral 1 de sus funciones?",
+      "options": [
+        "Sanciones por mora en mesadas pensionales",
+        "Hechos sancionables de los num. 3 y 4 del art. 179 de la Ley 1607 de 2012 y programas de apoyo del Gobierno",
+        "Delitos penales contra la administración pública"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Adelanta investigaciones sancionatorias del art. 179 de Ley 1607/2012 y de programas gubernamentales como PAEF (Decreto Legislativo 639/2020) ."
+    },
+    {
+      "id": 14,
+      "category": "Subdirección de Determinación de Obligaciones",
+      "git": "Liquidaciones",
+      "question": "¿Qué actos administrativos coordina para expedición el GIT de Liquidaciones?",
+      "options": [
+        "Cuentas de cobro de cuotas partes",
+        "Liquidaciones oficiales y/o ampliaciones a requerimientos para declarar o corregir",
+        "Resoluciones disciplinarias"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Coordina la expedición de liquidaciones oficiales y ampliaciones a requerimientos de declaración/corrección ."
+    },
+    {
+      "id": 15,
+      "category": "Subdirección de Determinación de Obligaciones",
+      "git": "Completitud",
+      "question": "¿Qué información reporta el GIT de Completitud a la coordinación de Sanciones?",
+      "options": [
+        "Listado de pensionados fallecidos",
+        "Base de datos de aportantes que no entregaron información o lo hicieron de forma extemporánea o parcial",
+        "Informes presupuestales"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Reporta aportantes incumplidos en la entrega de información para el trámite de sanciones por no envío de información ."
+    },
+    {
+      "id": 16,
+      "category": "Subdirección de Determinación de Obligaciones",
+      "git": "Transversales",
+      "question": "¿De qué proceso se encarga el GIT de Transversales en la Subdirección de Determinación de Obligaciones?",
+      "options": [
+        "Liquidación de nómina de retirados",
+        "Notificación de actos que profiere la subdirección, cálculo de reservas actuariales y ejecutorias",
+        "Selección de talento humano"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Controla notificaciones, correspondencia, cálculo de reservas actuariales y ejecutorias para traslado a Cobranzas ."
+    },
+    {
+      "id": 17,
+      "category": "Subdirección de Determinación de Obligaciones",
+      "git": "Cumplimiento a Fallos",
+      "question": "¿Cuál es la labor central del GIT de Cumplimiento a Fallos en Determinación de Obligaciones?",
+      "options": [
+        "Expedir requerimientos de información iniciales",
+        "Dar cumplimiento a los fallos judiciales de la Jurisdicción Contencioso Administrativa sobre actos de determinación",
+        "Atender únicamente tutelas pensionales"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Adelanta las actuaciones y expide resoluciones para acatar fallos contencioso-administrativos sobre fiscalización ."
+    },
+    {
+      "id": 18,
+      "category": "Subdirección de Integración del Sistema de Aportes Parafiscales",
+      "git": "Denuncias",
+      "question": "¿Quién evalúa las denuncias valoradas para decidir el inicio de procesos de fiscalización?",
+      "options": [
+        "El Director de Pensiones",
+        "El Comité Técnico de Parafiscales",
+        "El Consejo Superior de la Judicatura"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "El GIT de Denuncias prepara la información para que el Comité Técnico de Parafiscales evalúe el inicio de fiscalización ."
+    },
+    {
+      "id": 19,
+      "category": "Subdirección de Integración del Sistema de Aportes Parafiscales",
+      "git": "Gestión de Datos",
+      "question": "¿Qué inventario debe mantener actualizado el GIT de Gestión de Datos?",
+      "options": [
+        "Inventario de activos fijos de la entidad",
+        "Inventario de bases de datos y sus fichas con que cuenta la Dirección de Parafiscales",
+        "Inventario de demandas penales"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Consolida y mantiene el inventario de bases de datos de la Dirección de Parafiscales y sus fichas técnicas ."
+    },
+    {
+      "id": 20,
+      "category": "Subdirección de Integración del Sistema de Aportes Parafiscales",
+      "git": "Gestión de Datos",
+      "question": "¿Qué universo de empresas consolida mensualmente el GIT de Gestión de Datos para informar a las subdirecciones?",
+      "options": [
+        "Empresas exportadoras",
+        "Universo de empresas en proceso concursal",
+        "Empresas del sector público"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Actualiza mensualmente el universo de empresas en proceso concursal para articulación con áreas misionales ."
+    },
+    {
+      "id": 21,
+      "category": "Subdirección de Integración del Sistema de Aportes Parafiscales",
+      "git": "Comunicaciones Persuasivas",
+      "question": "¿Qué tecnología/herramienta debe implementar el GIT de Comunicaciones Persuasivas para la Unidad de Parafiscales?",
+      "options": [
+        "Inteligencia de negocios (BI) y soluciones de lenguaje sencillo con infografías",
+        "CRM presencial exclusivo",
+        "Servidor de correo de voz masivo"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Diseña e implementa soluciones de inteligencia de negocios (BI) y promueve lenguaje sencillo con infografías ."
+    },
+    {
+      "id": 22,
+      "category": "Subdirección de Integración del Sistema de Aportes Parafiscales",
+      "git": "Seguimiento a las Administradoras",
+      "question": "¿A qué área entrega el GIT de Seguimiento a las Administradoras el reporte por incumplimiento de conductas sancionables?",
+      "options": [
+        "Al Proceso Sancionatorio de la Subdirección de Determinación de Obligaciones",
+        "A la Contraloría General",
+        "A la Subdirección Financiera"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Reporta los incumplimientos al estándar de información a la Subdirección de Determinación de Obligaciones para sanción ."
+    },
+    {
+      "id": 23,
+      "category": "Subdirección de Cobranzas",
+      "git": "Verificación de Pagos",
+      "question": "¿Qué cálculo financiero realiza de forma rutinaria el GIT de Verificación de Pagos?",
+      "options": [
+        "Cálculo de mesadas pensionales reajustadas",
+        "Liquidación de intereses de las obligaciones en cobro y determinación de saldos por capital e intereses",
+        "Valoración de inmuebles para remate"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Organiza la labor de liquidación de intereses y determinación de saldos por capital e intereses ."
+    },
+    {
+      "id": 24,
+      "category": "Subdirección de Cobranzas",
+      "git": "Verificación de Pagos",
+      "question": "¿Hacia qué etapas procesales determina el GIT de Verificación de Pagos el cambio de estado de los expedientes?",
+      "options": [
+        "Únicamente archivo definitivo",
+        "Persuasivo, Coactivo, Concursal u otros según el resultado del pago",
+        "Devolución a la Fiscalía"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Aprueba cambios de estado hacia Persuasivo, Coactivo, Concursal u otros según el saldo validado ."
+    },
+    {
+      "id": 25,
+      "category": "Subdirección de Cobranzas",
+      "git": "Orientación al Deudor y Gestión de Títulos",
+      "question": "¿De qué estudio inicial se encarga el GIT de Orientación al Deudor y Gestión de Títulos?",
+      "options": [
+        "Estudio de títulos de propiedad raíz para compra",
+        "Recepción, creación, estudio y clasificación de los títulos ejecutivos",
+        "Estudio de historias laborales"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Coordina la recepción, creación, estudio de validez y clasificación de títulos ejecutivos para cobro ."
+    },
+    {
+      "id": 26,
+      "category": "Subdirección de Cobranzas",
+      "git": "Orientación al Deudor y Gestión de Títulos",
+      "question": "¿Qué actos sustancia este GIT en caso de incumplimiento de facilidades de pago?",
+      "options": [
+        "Actos administrativos que decretan el incumplimiento del acuerdo/facilidad de pago",
+        "Sentencias de casación",
+        "Resoluciones sancionatorias por extemporaneidad"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Sustancia los actos que decretan el incumplimiento de facilidades, acuerdos o compromisos de pago ."
+    },
+    {
+      "id": 27,
+      "category": "Subdirección de Cobranzas",
+      "git": "Gestión Coactiva",
+      "question": "¿Cuáles son los actos fundamentales de la etapa procesal a cargo del GIT de Gestión Coactiva?",
+      "options": [
+        "Autos de apertura de investigación sancionatoria",
+        "Mandamiento de pago, orden de ejecución y liquidaciones de crédito",
+        "Resoluciones de nombramiento"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Maneja el cobro coactivo emitiendo mandamientos de pago, órdenes de ejecución y liquidaciones de crédito ."
+    },
+    {
+      "id": 28,
+      "category": "Subdirección de Cobranzas",
+      "git": "Gestión Coactiva",
+      "question": "¿En qué diligencias sobre bienes secuestrados participa el GIT de Gestión Coactiva?",
+      "options": [
+        "Avalúos comerciales informales",
+        "Diligencias de secuestro y remate de bienes en nombre del Funcionario Ejecutor",
+        "Inspecciones laborales"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Desarrolla las diligencias de secuestro y remate de bienes secuestrados en el cobro coactivo ."
+    },
+    {
+      "id": 29,
+      "category": "Subdirección de Cobranzas",
+      "git": "Control y Gestión de Datos",
+      "question": "¿Qué herramienta automatizada utiliza el GIT de Control y Gestión de Datos para el seguimiento a investigaciones de bienes?",
+      "options": [
+        "Herramienta BOT",
+        "CRM público",
+        "Software libre externo"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Realiza el seguimiento a investigaciones de bienes generadas por la Herramienta BOT y su registro en el expediente ."
+    },
+    {
+      "id": 30,
+      "category": "Subdirección de Cobranzas",
+      "git": "Control y Gestión de Datos",
+      "question": "¿Qué orden emite este GIT cuando se alcanza el límite de embargo decretado?",
+      "options": [
+        "Levantamiento de medidas cautelares (desembargo) por cumplimiento del límite",
+        "Archivo definitivo sin recaudo",
+        "Amortización de cartera vencida"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Emite los actos de levantamiento de embargos cuando se cumple el límite fijado o se constituye depósito judicial ."
+    },
+    {
+      "id": 31,
+      "category": "Subdirección de Cobranzas",
+      "git": "Transversales",
+      "question": "¿A qué entidad transmite este GIT los reportes de obligaciones para la venta de cartera?",
+      "options": [
+        "Central de Inversiones S.",
+        "(CIS",
+        "",
+        "Bolsa de Valores de Colombia",
+        "Banco de la República"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Coordina la entrega, seguimiento y exclusiones de convenios interadministrativos para venta de cartera a CISA ."
+    },
+    {
+      "id": 32,
+      "category": "Subdirección de Cobranzas",
+      "git": "Transversales",
+      "question": "¿Qué boletín oficial consolida y transmite el GIT de Transversales de Cobranzas a la Subdirección Financiera?",
+      "options": [
+        "Boletín del Consumidor",
+        "Boletín de Deudores Morosos del Estado (BDME)",
+        "Boletín Oficial del Congreso"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Transmite el reporte del Boletín de Deudores Morosos (BDME) y deterioro de cartera a la Subdirección Financiera ."
+    },
+    {
+      "id": 33,
+      "category": "Dirección de Pensiones",
+      "git": "Instancia Superior, Sumas Superiores y D. Petición",
+      "question": "¿En qué etapas se analizan los proyectos de actos administrativos de segunda instancia pensional?",
+      "options": [
+        "Etapa 10 y 20",
+        "Etapa 130 (sustanciados) y Etapa 170 (revisados)",
+        "Etapa 500 y 600"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Realiza el análisis técnico-jurídico de apelaciones sustanciadas en etapa 130 y revisadas en etapa 170 ."
+    },
+    {
+      "id": 34,
+      "category": "Dirección de Pensiones",
+      "git": "Instancia Superior, Sumas Superiores y D. Petición",
+      "question": "¿Qué actos administrativos especiales aprueba este GIT bajo la etapa 255?",
+      "options": [
+        "Actos del Fondo Puertos de Colombia",
+        "Licencias de maternidad",
+        "Sanciones parafiscales"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Orienta la aprobación de actos administrativos del Fondo Puertos de Colombia (etapa 255) ."
+    },
+    {
+      "id": 35,
+      "category": "Subdirección de Normalización de Expedientes Pensionales",
+      "git": "Aseguramiento de Operaciones",
+      "question": "¿Cuál es la misión central del GIT de Aseguramiento de Operaciones en esta Subdirección?",
+      "options": [
+        "Pago de nómina mensual",
+        "Guiar las Supervisiones de completitud y seguridad documental de expedientes pensionales",
+        "Emisión de conceptos de ley"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Coordina las Supervisiones de completitud y seguridad documental de los expedientes pensionales ."
+    },
+    {
+      "id": 36,
+      "category": "Subdirección de Determinación de Derechos Pensionales",
+      "git": "Revisores",
+      "question": "¿Qué etapa procesal revisa específicamente el GIT de Revisores en primera instancia pensional?",
+      "options": [
+        "Etapa 100",
+        "Etapa 170",
+        "Etapa 300"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Monitorea y revisa la calidad técnica de proyectos de actos administrativos de 1a instancia en etapa 170 ."
+    },
+    {
+      "id": 37,
+      "category": "Subdirección de Determinación de Derechos Pensionales",
+      "git": "Sustanciadores",
+      "question": "¿Qué actividad técnica de verificación de información ejecuta el GIT de Sustanciadores?",
+      "options": [
+        "Auditoría de sistemas de cómputo",
+        "Segunda captura de historia laboral y factores salariales",
+        "Muestreo de firmas"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Ejecuta la segunda captura de historia laboral y factores salariales para detectar diferencias frente a la primera ."
+    },
+    {
+      "id": 38,
+      "category": "Subdirección de Determinación de Derechos Pensionales",
+      "git": "Transversales",
+      "question": "¿De qué aspecto tecnológico se encarga el GIT de Transversales en Determinación de Derechos Pensionales?",
+      "options": [
+        "Reparación de computadores",
+        "Identificación de mejoras e incidentes del aplicativo de reconocimiento pensional y pruebas funcionales",
+        "Cableado de redes"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Gestiona incidentes del aplicativo de reconocimiento pensional, formula requerimientos y realiza pruebas ."
+    },
+    {
+      "id": 39,
+      "category": "Subdirección de Determinación de Derechos Pensionales",
+      "git": "Fallos Judiciales y Sustanciación",
+      "question": "¿Qué marcación técnica realiza este GIT en el sistema para control de cumplimientos de sentencias?",
+      "options": [
+        "Marcación de \"Fallo cumple completo\" o cumplimientos parciales",
+        "Marcación de embargo cautelar",
+        "Marcación de usuario sancionado"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Lleva marcación de indicadores como \"fallo cumple completo\" y variables de nómina/cálculo actuarial ."
+    },
+    {
+      "id": 40,
+      "category": "Subdirección de Nómina de Pensionados",
+      "git": "Liquidación y Trámite de Novedades",
+      "question": "¿A qué entidad o consorcio se le reportan las novedades mensuales de la nómina de pensionados?",
+      "options": [
+        "Al Consorcio FOPEP (Fondo de Pensiones Públicas)",
+        "A Colpensiones únicamente",
+        "A la UGPP Parafiscales"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Reporta al pagador (FOPEP) las novedades mensuales cumpliendo con cronogramas y estándares ."
+    },
+    {
+      "id": 41,
+      "category": "Subdirección de Nómina de Pensionados",
+      "git": "Derechos de Petición y Tutelas",
+      "question": "¿Qué módulo específico del sistema revisa y gestiona el GIT de Derechos de Petición y Tutelas de Nómina?",
+      "options": [
+        "Módulo de viáticos",
+        "Módulo de suspensiones de nómina",
+        "Módulo de contratistas"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Revisa y tramita las solicitudes y expedientes del módulo de suspensiones de la nómina de pensionados ."
+    },
+    {
+      "id": 42,
+      "category": "Subdirección de Nómina de Pensionados",
+      "git": "Revisión y Trámite de Incorporaciones y Novedades",
+      "question": "¿Qué rol operativo coordina este grupo para validar las solicitudes de incorporación a la nómina?",
+      "options": [
+        "Rol Revisor",
+        "Rol Sustanciador único",
+        "Rol Notificador"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Coordina las actividades del subproceso de nómina requeridas para el desempeño del rol Revisor ."
+    },
+    {
+      "id": 43,
+      "category": "Subdirección de Nómina de Pensionados",
+      "git": "Gestión Post-Nómina y Obligaciones Pensionales",
+      "question": "¿Qué espacio de articulación mensual prepara este GIT con la entidad pagadora?",
+      "options": [
+        "Mesa de trabajo con el Consorcio FOPEP",
+        "Audiencia pública de cuentas",
+        "Asamblea de pensionados"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Prepara mensualmente los temas de la mesa de trabajo entre la UGPP y el Consorcio FOPEP ."
+    },
+    {
+      "id": 44,
+      "category": "Subdirección de Nómina de Pensionados",
+      "git": "Gestión Post-Nómina y Obligaciones Pensionales",
+      "question": "¿Qué documentos envía a los deudores este GIT como paso previo a escalar los casos a Cobranzas?",
+      "options": [
+        "Demandas ejecutivas",
+        "Oficios de cobro persuasivo de obligaciones pensionales (cuotas partes/mayores valores)",
+        "Citaciones penales"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Verifica el envío de oficios de cobro persuasivo de obligaciones pensionales antes del traslado a Cobranzas ."
+    },
+    {
+      "id": 45,
+      "category": "Dirección Jurídica",
+      "git": "Secretaría Técnica del Comité de Conciliación y Defensa Judicial",
+      "question": "¿Con qué periodicidad mínima debe sesionar el Comité de Conciliación según el Decreto 1069 de 2015?",
+      "options": [
+        "Una vez al mes",
+        "No menos de dos veces al mes",
+        "Trimestralmente"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "La Secretaría Técnica debe convocar y verificar que el Comité sesione no menos de dos (2) veces al mes ."
+    },
+    {
+      "id": 46,
+      "category": "Dirección Jurídica",
+      "git": "Secretaría Técnica del Comité de Conciliación y Defensa Judicial",
+      "question": "¿Con qué frecuencia se presenta el informe de gestión del Comité de Conciliación?",
+      "options": [
+        "Mensual",
+        "Cada seis (6) meses",
+        "Anual"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Prepara y presenta cada seis (6) meses el informe de gestión del Comité y ejecución de sus decisiones ."
+    },
+    {
+      "id": 47,
+      "category": "Dirección Jurídica",
+      "git": "Secretaría Técnica del Comité de Conciliación y Defensa Judicial",
+      "question": "¿A qué autoridades debe informar las decisiones del Comité sobre procedencia de acción de repetición?",
+      "options": [
+        "Al Ministerio Público (Procuraduría) y a la Contraloría General de la República",
+        "A la Superintendencia Bancaria",
+        "A la Policía Nacional"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Informa a los agentes del Ministerio Público y Contraloría General sobre las decisiones de acción de repetición ."
+    },
+    {
+      "id": 48,
+      "category": "Dirección Jurídica",
+      "git": "Gestión Jurídica",
+      "question": "¿En qué política institucional participa este GIT según el numeral 10 de sus funciones?",
+      "options": [
+        "Política de compras públicas",
+        "Formulación de la Política de Prevención del Daño Antijurídico",
+        "Política de seguridad física"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Participa en la formulación de la Política de Prevención del Daño Antijurídico de la entidad ."
+    },
+    {
+      "id": 49,
+      "category": "Subdirección de Defensa Judicial Pensional",
+      "git": "Tutelas",
+      "question": "¿Cuál es la meta del GIT de Tutelas frente a los incidentes de desacato?",
+      "options": [
+        "Promover la apertura de desacatos",
+        "Generar acciones para la disminución de desacatos y solicitar el hecho superado",
+        "Transferir el trámite a juzgados civiles"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Busca contener el riesgo jurídico conteniendo el incumplimiento y solicitando la declaración de hecho superado ."
+    },
+    {
+      "id": 50,
+      "category": "Subdirección de Defensa Judicial Pensional",
+      "git": "Penales",
+      "question": "¿En qué actuaciones penales interviene el GIT de Penales de Defensa Judicial Pensional?",
+      "options": [
+        "Formular denuncias por hechos punibles en reconocimiento pensional y constituirse en parte civil",
+        "Sancionar tributariamente a evasionistas",
+        "Juzgar a los imputados"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Formula denuncias penales por fraude pensional y se constituye en parte civil o incidente de reparación ."
+    },
+    {
+      "id": 51,
+      "category": "Subdirección de Defensa Judicial Pensional",
+      "git": "Defensa Judicial",
+      "question": "¿Qué lineamientos propone este GIT ante el Comité de Conciliación y Defensa Judicial?",
+      "options": [
+        "Estrategias de publicidad",
+        "Lineamientos de defensa judicial y extrajudicial y prevención del daño antijurídico",
+        "Modelos de cálculo de pensiones"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Elabora y propone los lineamientos de defensa judicial/extrajudicial para los apoderados de la Entidad ."
+    },
+    {
+      "id": 52,
+      "category": "Subdirección de Defensa Judicial Pensional",
+      "git": "Acciones de Lesividad",
+      "question": "¿Qué artículo de la Ley 797 de 2003 aplica para instaurar acciones de defensa por indebido reconocimiento pensional?",
+      "options": [
+        "Artículo 10",
+        "Artículo 20 de la Ley 797 de 2003 (Acción de revocatoria/lesividad)",
+        "Artículo 50"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Instaura las acciones de defensa por activa en virtud del artículo 20 de la Ley 797 de 2003 ."
+    },
+    {
+      "id": 53,
+      "category": "Subdirección de Defensa Judicial Pensional",
+      "git": "Acciones de Lesividad",
+      "question": "¿Qué trámite legal atiende este GIT relativo a la unificación jurisprudencial?",
+      "options": [
+        "Proceso de Extensión de Jurisprudencia",
+        "Homologación de títulos extranjeros",
+        "Registro de patentes"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Atiende en sede administrativa y judicial las peticiones de extensión de jurisprudencia ."
+    },
+    {
+      "id": 54,
+      "category": "Subdirección de Defensa Judicial Pensional",
+      "git": "Ejecutivos",
+      "question": "¿Qué documento de pago coordina crear el GIT de Ejecutivos para cumplir órdenes judiciales?",
+      "options": [
+        "Certificado de Disponibilidad Presupuestal",
+        "Solicitud de Orden de Pago (SOP) de cumplimiento a fallo",
+        "Cheque de gerencia"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Coordinan la solicitud de creación de SOP de cumplimiento a fallo en procesos ejecutivos ."
+    },
+    {
+      "id": 55,
+      "category": "Subdirección de Defensa Judicial Pensional",
+      "git": "Gestión Administrativa",
+      "question": "¿Qué aplicativo de gestión jurídica administra este GIT para el registro de procesos judiciales pensionales?",
+      "options": [
+        "Aplicativo TEMIS",
+        "Aplicativo PILA",
+        "Aplicativo RUA"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Lidera la creación y actualización de procesos judiciales pensionales en el aplicativo TEMIS ."
+    },
+    {
+      "id": 56,
+      "category": "Subdirección de Defensa Judicial Pensional",
+      "git": "Seguimiento a la Gestión",
+      "question": "¿Entre qué sistemas de información realiza cruces de datos el GIT de Seguimiento a la Gestión?",
+      "options": [
+        "TEMIS frente a Ekogui y vigilancia judicial",
+        "SIIF frente a Muisca",
+        "Excel frente a Word"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Cruza la información del aplicativo TEMIS con plataformas nacionales como Ekogui y vigilancia judicial ."
+    },
+    {
+      "id": 57,
+      "category": "Subdirección de Asesoría y Conceptualización Pensional",
+      "git": "Análisis y Sustento Jurídico Pensional",
+      "question": "¿Qué tipo de escritos jurídicos proyecta este grupo para las áreas misionales pensionales?",
+      "options": [
+        "Requerimientos de cobro persuasivo",
+        "Conceptos jurídicos, conflictos de competencia y respuestas sustentadas a entes de control",
+        "Circulares de personal"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Proyecta conceptos jurídicos pensionales, analiza conflictos de competencia y responde a entes de control ."
+    },
+    {
+      "id": 58,
+      "category": "Subdirección de Asesoría y Conceptualización Pensional",
+      "git": "Doctrina y Unificación de Criterios",
+      "question": "¿Qué función ejerce este GIT en relación con la Secretaría Técnica del Comité de Conciliación?",
+      "options": [
+        "Apoya las funciones de Secretaría Técnica en citaciones, actas y ponencias de repetición",
+        "Audita los estados financieros",
+        "Diseña los exámenes de selección"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Gestiona operativamente las funciones de la Secretaría Técnica del Comité de Conciliación Pensional ."
+    },
+    {
+      "id": 59,
+      "category": "Subdirección de Asesoría y Conceptualización Pensional",
+      "git": "Doctrina y Unificación de Criterios",
+      "question": "¿Qué orden de pagos analiza este GIT de acuerdo con el Decreto 1211 de 1999?",
+      "options": [
+        "Orden de pago de contratistas",
+        "Conceptos del orden secuencial de pagos pensionales",
+        "Pagos de nómina administrativa"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Elabora y remite conceptos sobre el orden secuencial de pagos pensionales bajo el Decreto 1211 de 1999 ."
+    },
+    {
+      "id": 60,
+      "category": "Subdirección de Asesoría y Conceptualización Pensional",
+      "git": "Conciliaciones Judiciales, Extrajudiciales y Repetición",
+      "question": "¿Qué ponencias presenta este GIT ante el Comité de Conciliación de la Entidad?",
+      "options": [
+        "Ponencias para la procedencia de la Acción de Repetición o llamamiento en garantía",
+        "Ponencias de licitación pública",
+        "Proyectos de inversión"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Estudia la procedencia de promover la acción de repetición o llamamiento en garantía con fines de repetición ."
+    },
+    {
+      "id": 61,
+      "category": "Subdirección Jurídica de Parafiscales",
+      "git": "Actos Administrativos (1)",
+      "question": "¿Qué recursos administrativos revisa el GIT de Actos Administrativos (1)?",
+      "options": [
+        "Apelaciones pensionales",
+        "Recursos de Reconsideración y solicitudes de Revocatoria Directa en parafiscales",
+        "Recurso de queja disciplinaria"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Revisa los actos que resuelven recursos de reconsideración y revocatorias directas de fiscalización ."
+    },
+    {
+      "id": 62,
+      "category": "Subdirección Jurídica de Parafiscales",
+      "git": "Actos Administrativos (2)",
+      "question": "¿Qué perfil profesional compone el equipo adscrito al GIT de Actos Administrativos (2)?",
+      "options": [
+        "Médicos laborales",
+        "Contadores públicos encargados del análisis contable de los recursos",
+        "Ingenieros de sistemas"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Revisa los análisis contables proyectados por el equipo de contadores en los recursos de reconsideración ."
+    },
+    {
+      "id": 63,
+      "category": "Subdirección Jurídica de Parafiscales",
+      "git": "Defensa Judicial",
+      "question": "¿Qué contrato de servicio externo valida mensualmente el GIT de Defensa Judicial Parafiscales?",
+      "options": [
+        "Contrato de aseo",
+        "Pre-factura del servicio de Vigilancia Judicial",
+        "Contrato de arrendamiento de sede"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Valida mensualmente la pre-factura del contrato de servicio de vigilancia judicial contratado ."
+    },
+    {
+      "id": 64,
+      "category": "Subdirección Jurídica de Parafiscales",
+      "git": "Beneficios Tributarios y Apoyo a la Gestión",
+      "question": "¿Qué herramientas de gestión de correspondencia administra este GIT en Subdirección Jurídica Parafiscales?",
+      "options": [
+        "Archivo central en físico únicamente",
+        "Puntos de Contacto (PD",
+        "asignados a la Subdirección",
+        "Casillero postal"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Administra los Puntos de Contacto (PDC) para registro y control de radicados del área jurídica parafiscal ."
+    },
+    {
+      "id": 65,
+      "category": "Subdirección Jurídica de Parafiscales",
+      "git": "Análisis y Sustento Jurídico",
+      "question": "¿En qué elaboración normativa participa el GIT de Análisis y Sustento Jurídico de Parafiscales?",
+      "options": [
+        "Proyectos de Ley, Decretos Reglamentarios y actos administrativos de competencia de la Unidad",
+        "Código Penal",
+        "Estatuto de Contratación Pública"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Coordina la preparación de proyectos de ley, decretos reglamentarios y consultas de interpretación parafiscal ."
+    },
+    {
+      "id": 66,
+      "category": "Dirección de Soporte y Desarrollo Organizacional",
+      "git": "Control Interno Disciplinario",
+      "question": "¿En qué etapa procesal ejerce la función disciplinaria este GIT según la Ley Disciplinaria?",
+      "options": [
+        "Etapa de juzgamiento",
+        "Etapa de instrucción",
+        "Etapa de casación"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Ejerce la función disciplinaria en la UGPP en la etapa de instrucción conforme al Código General Disciplinario ."
+    },
+    {
+      "id": 67,
+      "category": "Dirección de Soporte y Desarrollo Organizacional",
+      "git": "Control Interno Disciplinario",
+      "question": "Una vez notificado el pliego de cargos, ¿a qué dependencia se remite el expediente disciplinario para juzgamiento?",
+      "options": [
+        "A la Dirección Jurídica",
+        "A la Subdirección de Gestión Humana",
+        "A la Procuraduría únicamente"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Notificado el pliego de cargos, el proceso continúa en la Dirección Jurídica para la etapa de juzgamiento ."
+    },
+    {
+      "id": 68,
+      "category": "Subdirección Administrativa",
+      "git": "Recursos Físicos",
+      "question": "¿De qué inventario general responde el GIT de Recursos Físicos?",
+      "options": [
+        "Inventario de deudas en cobro",
+        "Inventario general de bienes devolutivos de la entidad (compra, donación o comodato)",
+        "Inventario de expedientes en archivo"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Administra y controla el inventario general de bienes devolutivos de la UGPP ."
+    },
+    {
+      "id": 69,
+      "category": "Subdirección Administrativa",
+      "git": "Recursos Físicos",
+      "question": "¿Con qué dependencia realiza la conciliación mensual de saldos de las cuentas de bienes?",
+      "options": [
+        "Con la Subdirección Financiera",
+        "Con la Contraloría",
+        "Con los proveedores de servicios"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Desarrolla conjuntamente con la Subdirección Financiera la conciliación contable del informe de bienes ."
+    },
+    {
+      "id": 70,
+      "category": "Subdirección Administrativa",
+      "git": "Contratos",
+      "question": "¿Qué principios rectores rigen la actuación del GIT de Contratos según sus funciones?",
+      "options": [
+        "Ley 100 de 1993",
+        "Principios de la contratación estatal de la Ley 80 de 1993 y Art. 209 de la Constitución Política",
+        "Código de Comercio"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Garantiza el estricto cumplimiento de los principios de la Ley 80 de 1993 y de la función administrativa ."
+    },
+    {
+      "id": 71,
+      "category": "Subdirección Administrativa",
+      "git": "Contratos",
+      "question": "¿En qué plataformas oficiales debe publicar este GIT los actos contractuales?",
+      "options": [
+        "Redes sociales de la entidad",
+        "Página web de la UGPP y portal de Colombia Compra Eficiente (SECOP)",
+        "Diario Oficial únicamente"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Envía a comunicaciones los actos y efectúa publicación en el portal del SECOP / Colombia Compra Eficiente ."
+    },
+    {
+      "id": 72,
+      "category": "Subdirección Administrativa",
+      "git": "Estudios de Mercado",
+      "question": "¿Qué documento de planificación anual administra y controla el GIT de Estudios de Mercado?",
+      "options": [
+        "Plan Anual de Adquisiciones (PA",
+        "",
+        "Plan de Bienestar Social",
+        "Plan de Salud Ocupacional"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Coordina la elaboración del Plan Anual de Adquisiciones y administra y controla su ejecución ."
+    },
+    {
+      "id": 73,
+      "category": "Subdirección Administrativa",
+      "git": "Estudios de Mercado",
+      "question": "¿Qué certificado presupuestal elabora este grupo previo a iniciar la contratación?",
+      "options": [
+        "Solicitudes de Certificados de Disponibilidad Presupuestal (CDP)",
+        "Registros Presupuestales (RP)",
+        "Órdenes de Pago (OP)"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Gestiona y elabora las solicitudes de Certificados de Disponibilidad Presupuestal (CDP) ."
+    },
+    {
+      "id": 74,
+      "category": "Subdirección Financiera",
+      "git": "Presupuesto",
+      "question": "¿Qué trámite financiero ejecuta al cierre de cada vigencia fiscal el GIT de Presupuesto?",
+      "options": [
+        "Cancelación de contratos",
+        "Constitución de la Reserva Presupuestal de acuerdo con la norma legal",
+        "Devolución de impuestos"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Constituye la reserva presupuestal al cierre de cada vigencia fiscal ."
+    },
+    {
+      "id": 75,
+      "category": "Subdirección Financiera",
+      "git": "Presupuesto",
+      "question": "¿Qué sistema de información nacional maneja el GIT de Presupuesto para la cadena presupuestal?",
+      "options": [
+        "Sistema SIIF Nación (Registro de CDP, Compromisos, apropiaciones)",
+        "Sistema Muisca",
+        "Sistema SIGEP"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Administra y opera el Sistema Integrado de Información Financiera SIIF Nación ."
+    },
+    {
+      "id": 76,
+      "category": "Subdirección Financiera",
+      "git": "Contabilidad",
+      "question": "¿Qué informe contable ante la Contaduría General de la Nación prepara el GIT de Contabilidad?",
+      "options": [
+        "Balance de liquidación pública",
+        "Estados Financieros y sus notas explicativas de la UGPP",
+        "Cuadro de mando integral"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Prepara, firma y presenta los Estados Financieros de la Entidad ante la Contaduría General ."
+    },
+    {
+      "id": 77,
+      "category": "Subdirección Financiera",
+      "git": "Tesorería",
+      "question": "¿Qué programa de caja administra y controla el GIT de Tesorería?",
+      "options": [
+        "Programa Anual Mensualizado de Caja (PA",
+        "y cupos PAC",
+        "Tarjeta de crédito institucional",
+        "Fondo de empleados"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Registrar, administrar y controlar el Programa Anual Mensualizado de Caja (PAC) ."
+    },
+    {
+      "id": 78,
+      "category": "Subdirección Financiera",
+      "git": "Tesorería",
+      "question": "¿Qué fondo dinerario operativo maneja Tesorería según las normas del Ministerio de Hacienda?",
+      "options": [
+        "Caja Menor de la Unidad",
+        "Reserva de contingencias judiciales",
+        "Fondo de cesantías"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Registrar, administrar y controlar los recursos asignados a la Caja Menor de la Unidad ."
+    },
+    {
+      "id": 79,
+      "category": "Subdirección Financiera",
+      "git": "Central de Cuentas",
+      "question": "¿Qué trámite en SIIF Nación ejecuta Central de Cuentas para hacer pagos a beneficiarios?",
+      "options": [
+        "Elaboración de cuentas por pagar y creación de terceros y cuentas bancarias",
+        "Emisión de cheques de papel",
+        "Pago en efectivo en ventanilla"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Elabora cuentas por pagar y gestiona la creación de terceros y cuentas bancarias en SIIF ."
+    },
+    {
+      "id": 80,
+      "category": "Subdirección Financiera",
+      "git": "Central de Cuentas",
+      "question": "¿En qué portal de contratación pública debe cargar mensualmente este grupo las órdenes de pago?",
+      "options": [
+        "SECOP II",
+        "RUES",
+        "Página del Ministerio de Hacienda"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Coordina el cargue mensual de las órdenes de pago en el aplicativo SECOP II ."
+    },
+    {
+      "id": 81,
+      "category": "Subdirección de Gestión Humana",
+      "git": "Ciclo Laboral",
+      "question": "¿Qué procesos integran el GIT de Ciclo Laboral desde el ingreso hasta el retiro del servidor público?",
+      "options": [
+        "Selección, vinculación, administración de planta y desvinculación",
+        "Liquidación de viáticos únicamente",
+        "Evaluación de proveedores"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Coordina los procesos de selección, posesión, movimientos de planta y desvinculación de personal ."
+    },
+    {
+      "id": 82,
+      "category": "Subdirección de Gestión Humana",
+      "git": "Ciclo Laboral",
+      "question": "¿Cuándo deben tramitarse las afiliaciones a seguridad social de los nuevos servidores públicos?",
+      "options": [
+        "A los 30 días del ingreso",
+        "El mismo día de su posesión",
+        "Al finalizar el periodo de prueba"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Gestiona las afiliaciones a seguridad social y caja de compensación el mismo día de la posesión ."
+    },
+    {
+      "id": 83,
+      "category": "Subdirección de Gestión Humana",
+      "git": "Administración de Servicios al Personal",
+      "question": "¿Qué liquidación mensual realiza el GIT de Administración de Servicios al Personal?",
+      "options": [
+        "Liquidación de la nómina de servidores públicos y autoliquidación de aportes a seguridad social",
+        "Nómina de pensionados del FOPEP",
+        "Facturación de venta de servicios"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Liquida la nómina de funcionarios de la entidad y la autoliquidación de aportes parafiscales y seguridad social ."
+    },
+    {
+      "id": 84,
+      "category": "Subdirección de Gestión Humana",
+      "git": "Desarrollo y Satisfacción del Talento Humano",
+      "question": "¿Qué planes institucionales coordina y ejecuta este grupo para el desarrollo de los servidores?",
+      "options": [
+        "Plan Institucional de Capacitación (PI",
+        ", Plan de Bienestar Social e Incentivos y SG-SST",
+        "Plan de compras informáticas",
+        "Plan de descongestión judicial"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Planea y ejecuta el Plan de Capacitación, Bienestar Social e Incentivos y el Sistema de Seguridad y Salud en el Trabajo ."
+    },
+    {
+      "id": 85,
+      "category": "Subdirección de Gestión Humana",
+      "git": "Transversales",
+      "question": "¿Qué función técnica cumple el GIT de Transversales de Gestión Humana frente a los actos del área?",
+      "options": [
+        "Firmarlos en reemplazo del Subdirector",
+        "Revisar jurídicamente y controlar los actos administrativos emitidos en la Subdirección",
+        "Redactar los correos informativos"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Revisa jurídicamente y controla los actos administrativos emitidos en la Subdirección de Gestión Humana ."
+    },
+    {
+      "id": 86,
+      "category": "Subdirección de Gestión Documental",
+      "git": "Abastecimiento",
+      "question": "¿Qué solicitudes atiende el GIT de Abastecimiento de Gestión Documental respecto a archivos físicos?",
+      "options": [
+        "Consultas de leyes en internet",
+        "Atención de solicitudes de consulta, préstamo y transferencia de expedientes físicos",
+        "Destrucción inmediata de papeles"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Lidera la atención de solicitudes de consulta, préstamo y transferencia de expedientes físicos ."
+    },
+    {
+      "id": 87,
+      "category": "Subdirección de Gestión Documental",
+      "git": "Operaciones",
+      "question": "¿Qué actividades operativas lidera este grupo sobre las comunicaciones de entrada?",
+      "options": [
+        "Radicación, preparación, distribución, digitalización e indexación de la correspondencia",
+        "Notificación judicial personal",
+        "Envío de mensajes de texto"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Efectúa el seguimiento a radicación, clasificación, digitalización e indexación de correspondencia de entrada ."
+    },
+    {
+      "id": 88,
+      "category": "Dirección de Seguimiento y Mejoramiento de Procesos",
+      "git": "Seguridad de la Información",
+      "question": "¿Qué sistema institucional administra y monitorea el GIT de Seguridad de la Información?",
+      "options": [
+        "Sistema de Gestión de Seguridad de la Información (SGSI)",
+        "Sistema de gestión ambiental",
+        "Sistema de inventario de almacén"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Propone lineamientos y administra el Sistema de Gestión de Seguridad de la Información (SGSI) ."
+    },
+    {
+      "id": 89,
+      "category": "Dirección de Seguimiento y Mejoramiento de Procesos",
+      "git": "Seguridad de la Información",
+      "question": "¿Qué inventario de activos mantiene actualizado este GIT?",
+      "options": [
+        "Inventario de activos de información clasificados por su criticidad",
+        "Inventario de vehículos institucionales",
+        "Inventario de licencias de conducir"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Gestiona la actualización periódica del inventario de activos de información de la Entidad ."
+    },
+    {
+      "id": 90,
+      "category": "Dirección de Seguimiento y Mejoramiento de Procesos",
+      "git": "Gestión de Procesos y Riesgos",
+      "question": "¿Qué sistema de gestión administra de forma integral este grupo?",
+      "options": [
+        "Sistema Integrado de Gestión (SIG) y Sistema de Administración de Riesgos",
+        "Sistema de control de tráfico",
+        "Sistema de bibliotecas"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Articula el mantenimiento del Sistema Integrado de Gestión (SIG) y administra el Sistema de Riesgos ."
+    },
+    {
+      "id": 91,
+      "category": "Dirección de Estrategia y Evaluación",
+      "git": "Comunicaciones",
+      "question": "¿Quién debe autorizar la emisión de comunicados oficiales por parte del GIT de Comunicaciones?",
+      "options": [
+        "El sindicato de la entidad",
+        "La Dirección General y la Dirección de Estrategia y Evaluación",
+        "El Ministerio de Tecnologías de la Información"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "Emite comunicaciones oficiales previa autorización de la Dirección General y Dirección de Estrategia ."
+    },
+    {
+      "id": 92,
+      "category": "Dirección de Estrategia y Evaluación",
+      "git": "Planeación y Proyectos",
+      "question": "¿Qué evaluación y formulario institucional hace seguimiento este GIT para la gestión pública?",
+      "options": [
+        "Formulario Único Reporte de Avance a la Gestión (FURAG) y Modelo MIPG",
+        "Declaración de Renta",
+        "Formulario de afiliación"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Promueve la incorporación de estándares de calidad y seguimiento al FURAG/MIPG ."
+    },
+    {
+      "id": 93,
+      "category": "Dirección de Estrategia y Evaluación",
+      "git": "Caracterización y Análisis de la Evasión",
+      "question": "¿Qué modelos econométricos/estadísticos diseña este GIT en la Dirección de Estrategia?",
+      "options": [
+        "Modelos de selección de obligados para tratamiento persuasivo y/o de fiscalización",
+        "Modelos de predicción del clima",
+        "Modelos de rendimiento bursátil"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Realiza modelos econométricos y de selección de obligados para tratamiento persuasivo o fiscalización ."
+    },
+    {
+      "id": 94,
+      "category": "Dirección de Gestión de Tecnologías de la Información",
+      "git": "Infraestructura de Tecnología",
+      "question": "¿Qué servicio de soporte a usuarios opera el GIT de Infraestructura de Tecnología?",
+      "options": [
+        "Mesa de ayuda de los servicios de tecnología de la entidad",
+        "Call center pensional",
+        "Recepción presencial"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Gestiona la mesa de ayuda de los servicios tecnológicos internos y externos de la entidad ."
+    },
+    {
+      "id": 95,
+      "category": "Dirección de Gestión de Tecnologías de la Información",
+      "git": "Sistemas de Información",
+      "question": "¿De qué actividad técnica sobre el software institucional se encarga este grupo?",
+      "options": [
+        "Desarrollo, mantenimiento y proceso de liberación de software",
+        "Instalación de cableado eléctrico",
+        "Venta de licencias informáticas"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Realiza el desarrollo, mantenimiento y proceso de liberación de requerimientos de software ."
+    },
+    {
+      "id": 96,
+      "category": "Dirección de Gestión de Tecnologías de la Información",
+      "git": "Arquitectura de Soluciones de TI",
+      "question": "¿Qué función cumple este GIT antes de liberar una solución tecnológica a producción?",
+      "options": [
+        "Gestionar las pruebas técnicas del desarrollo de soluciones tecnológicas",
+        "Contratar el personal de digitación",
+        "Redactar la circular informativa"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Gestiona las pruebas técnicas del desarrollo de soluciones según estándares y buenas prácticas de TI ."
+    },
+    {
+      "id": 97,
+      "category": "Dirección de Servicios Integrados de Atención",
+      "git": "Gestión de Canales de Atención",
+      "question": "¿Qué plataforma tecnológica de atención al cliente administra este GIT?",
+      "options": [
+        "CRM institucional y sistemas tecnológicos que soportan canales multicanal",
+        "Software de nómina",
+        "Base de datos penal"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Gestiona y monitorea el funcionamiento del CRM institucional y el modelo multicanal de atención ."
+    },
+    {
+      "id": 98,
+      "category": "Dirección de Servicios Integrados de Atención",
+      "git": "Relacionamiento y Gestión Transversal",
+      "question": "¿Qué solicitudes ciudadanas lidera transversalmente el GIT de Relacionamiento?",
+      "options": [
+        "Gestión transversal de PQRSFD y requerimientos de entes de control",
+        "Solicitudes de crédito bancario",
+        "Consultas de prensa"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Lidera la gestión transversal de Peticiones, Quejas, Reclamos, Sugerencias, Felicitaciones y Denuncias (PQRSFD) ."
+    },
+    {
+      "id": 99,
+      "category": "Dirección de Servicios Integrados de Atención",
+      "git": "Gestión de Back Office",
+      "question": "¿Qué proceso administrativo clave coordina este grupo en materia de comunicación oficial de actos?",
+      "options": [
+        "Actualización del modelo de notificación de actos administrativos",
+        "Impresión de libros contables",
+        "Certificación de notas académicas"
+      ],
+      "answer": 0,
+      "difficulty": "medio",
+      "justification": "Supervisa la operación de Back Office y actualiza el modelo de notificación de actos administrativos ."
+    },
+    {
+      "id": 100,
+      "category": "Dirección General",
+      "git": "Generalidades de la Resolución",
+      "question": "¿Quién expide y firma la Resolución 0059 del 28 de enero de 2026 como Director General de la UGPP?",
+      "options": [
+        "El Ministro de Hacienda",
+        "Luciano Grisales Londoño",
+        "El Director Nacional de Planeación"
+      ],
+      "answer": 1,
+      "difficulty": "medio",
+      "justification": "La resolución fue dada en Bogotá D.C. el 28 de enero de 2026 y firmada por Luciano Grisales Londoño, Director General ."
+    }
+  ]
+}

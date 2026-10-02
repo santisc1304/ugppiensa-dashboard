@@ -1,0 +1,14 @@
+{
+    "totalSessions": 804,
+    "uniqueUsers": 58,
+    "departments": 8,
+    "precisionGlobal": 71.29,
+    "timeAvg": 323,
+    "modules": {
+        "gameActivo": 278,
+        "directorios": 164,
+        "lluvia": 147,
+        "despacho": 121,
+        "misionRaiz": 86
+    }
+}

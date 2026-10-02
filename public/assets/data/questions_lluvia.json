@@ -1,0 +1,320 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuáles son objetivos de la Resolución 0059?",
+      "allOptions": [
+        {
+          "text": "Organizar grupos internos",
+          "correct": true
+        },
+        {
+          "text": "Unificar las áreas",
+          "correct": true
+        },
+        {
+          "text": "Mejorar la eficiencia",
+          "correct": true
+        },
+        {
+          "text": "Aumentar salarios",
+          "correct": false
+        },
+        {
+          "text": "Cerrar oficinas",
+          "correct": false
+        },
+        {
+          "text": "Despedir funcionarios",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Qué áreas pertenecen a la Dirección General?",
+      "allOptions": [
+        {
+          "text": "Asesoría de Comunicaciones",
+          "correct": true
+        },
+        {
+          "text": "Control Interno",
+          "correct": true
+        },
+        {
+          "text": "Relacionamiento Institucional",
+          "correct": true
+        },
+        {
+          "text": "Asuntos Internacionales",
+          "correct": true
+        },
+        {
+          "text": "Gestión Humana",
+          "correct": false
+        },
+        {
+          "text": "Seguimiento Pensional",
+          "correct": false
+        },
+        {
+          "text": "Cobranzas Coactivas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "¿Funciones de la Dirección Jurídica?",
+      "allOptions": [
+        {
+          "text": "Representación judicial",
+          "correct": true
+        },
+        {
+          "text": "Defensa de UGPP",
+          "correct": true
+        },
+        {
+          "text": "Conciliaciones extrajudiciales",
+          "correct": true
+        },
+        {
+          "text": "Conceptos jurídicos",
+          "correct": true
+        },
+        {
+          "text": "Liquidar la nómina",
+          "correct": false
+        },
+        {
+          "text": "Contratar personal",
+          "correct": false
+        },
+        {
+          "text": "Aprobar vacaciones",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "¿Qué grupos integran Cobranzas?",
+      "allOptions": [
+        {
+          "text": "Cobro Persuasivo",
+          "correct": true
+        },
+        {
+          "text": "Investigación de Bienes",
+          "correct": true
+        },
+        {
+          "text": "Facilidades de Pago",
+          "correct": true
+        },
+        {
+          "text": "Mandamientos de Pago",
+          "correct": true
+        },
+        {
+          "text": "Revisión de tutelas",
+          "correct": false
+        },
+        {
+          "text": "Control disciplinario",
+          "correct": false
+        },
+        {
+          "text": "Soporte técnico",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "¿Temas de la Subdirección Financiera?",
+      "allOptions": [
+        {
+          "text": "Presupuesto anual",
+          "correct": true
+        },
+        {
+          "text": "Tesorería y pagos",
+          "correct": true
+        },
+        {
+          "text": "Estados contables",
+          "correct": true
+        },
+        {
+          "text": "Defensa judicial",
+          "correct": false
+        },
+        {
+          "text": "Normativa pensional",
+          "correct": false
+        },
+        {
+          "text": "Gestión documental",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "¿Qué evalúa Estrategia y Evaluación?",
+      "allOptions": [
+        {
+          "text": "Planes institucionales",
+          "correct": true
+        },
+        {
+          "text": "Gestión de riesgos",
+          "correct": true
+        },
+        {
+          "text": "Indicadores estratégicos",
+          "correct": true
+        },
+        {
+          "text": "Auditorías internas",
+          "correct": false
+        },
+        {
+          "text": "Contratación estatal",
+          "correct": false
+        },
+        {
+          "text": "Liquidación de aportes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "¿Funciones de Servicios de Atención?",
+      "allOptions": [
+        {
+          "text": "Atención presencial",
+          "correct": true
+        },
+        {
+          "text": "Canales virtuales",
+          "correct": true
+        },
+        {
+          "text": "Peticiones y quejas",
+          "correct": true
+        },
+        {
+          "text": "Liquidación de nómina",
+          "correct": false
+        },
+        {
+          "text": "Litigios penales",
+          "correct": false
+        },
+        {
+          "text": "Gestión de servidores",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "¿Deberes de Tecnologías de Información?",
+      "allOptions": [
+        {
+          "text": "Seguridad de datos",
+          "correct": true
+        },
+        {
+          "text": "Soporte tecnológico",
+          "correct": true
+        },
+        {
+          "text": "Desarrollo de software",
+          "correct": true
+        },
+        {
+          "text": "Arquitectura de sistemas",
+          "correct": true
+        },
+        {
+          "text": "Liquidación financiera",
+          "correct": false
+        },
+        {
+          "text": "Representación legal",
+          "correct": false
+        },
+        {
+          "text": "Manejo de archivo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "¿Qué hace la Subdirección Administrativa?",
+      "allOptions": [
+        {
+          "text": "Gestión de contratos",
+          "correct": true
+        },
+        {
+          "text": "Compras y bienes",
+          "correct": true
+        },
+        {
+          "text": "Servicios generales",
+          "correct": true
+        },
+        {
+          "text": "Atención al ciudadano",
+          "correct": false
+        },
+        {
+          "text": "Cobro coactivo",
+          "correct": false
+        },
+        {
+          "text": "Análisis macroeconómico",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "¿Actividades de Gestión Humana?",
+      "allOptions": [
+        {
+          "text": "Nómina de empleados",
+          "correct": true
+        },
+        {
+          "text": "Bienestar laboral",
+          "correct": true
+        },
+        {
+          "text": "Capacitación interna",
+          "correct": true
+        },
+        {
+          "text": "Selección de personal",
+          "correct": true
+        },
+        {
+          "text": "Gestión de infraestructura",
+          "correct": false
+        },
+        {
+          "text": "Revisión de embargos",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

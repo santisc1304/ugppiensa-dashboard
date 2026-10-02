@@ -1,0 +1,74 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "points_required": 20,
+      "reward": "Dulce / Caramelo UGPP",
+      "cosmetic_key": "item_candy",
+      "desc": "¡Tu primer dulce institucional!"
+    },
+    {
+      "level": 2,
+      "points_required": 50,
+      "reward": "Galletas de Refrigerio",
+      "cosmetic_key": "item_cookies",
+      "desc": "Refrigerio energético para tu jornada"
+    },
+    {
+      "level": 3,
+      "points_required": 100,
+      "reward": "Esfero Institucional UGPP",
+      "cosmetic_key": "item_pen",
+      "desc": "Esfero oficial de la Unidad"
+    },
+    {
+      "level": 4,
+      "points_required": 160,
+      "reward": "Libreta Ecológica UGPP",
+      "cosmetic_key": "item_notebook",
+      "desc": "Para apuntar tus mejores ideas"
+    },
+    {
+      "level": 5,
+      "points_required": 230,
+      "reward": "Mug / Termo UGPP",
+      "cosmetic_key": "item_mug",
+      "desc": "Café caliente en todo momento"
+    },
+    {
+      "level": 6,
+      "points_required": 320,
+      "reward": "Café Juan Valdez Especial",
+      "cosmetic_key": "item_coffee",
+      "desc": "El mejor café de Colombia en tu puesto"
+    },
+    {
+      "level": 7,
+      "points_required": 420,
+      "reward": "Camiseta Oficial UGPP",
+      "cosmetic_key": "shirt_ugpp_blue",
+      "desc": "Vístete con orgullo institucional"
+    },
+    {
+      "level": 8,
+      "points_required": 550,
+      "reward": "Gorra o Sombrilla Institucional",
+      "cosmetic_key": "hat_cap_blue",
+      "desc": "Protección con estilo UGPP"
+    },
+    {
+      "level": 9,
+      "points_required": 700,
+      "reward": "Bono Recreativo Compensar",
+      "cosmetic_key": "item_ticket",
+      "desc": "Disfruta con tu familia"
+    },
+    {
+      "level": 10,
+      "points_required": 1000,
+      "reward": "Bono de Servicios Colsubsidio",
+      "cosmetic_key": "hat_ugpp_gold",
+      "desc": "¡Gran premio al Máximo Experto UGPP!"
+    }
+  ]
+}
