@@ -10,7 +10,6 @@ export class PresentationScene extends Phaser.Scene {
     private currentWaypointIndex: number = 0;
     private isMoving: boolean = false;
     private easystar!: EasyStar.js;
-    private collisionLayer!: Phaser.Tilemaps.TilemapLayer | any;
     private grid: number[][] = [];
 
     constructor() {
@@ -26,7 +25,7 @@ export class PresentationScene extends Phaser.Scene {
         const tilesets = [tileset].filter(t => t !== null) as Phaser.Tilemaps.Tileset[];
 
         // Crear todas las capas
-        const layers: Phaser.Tilemaps.TilemapLayer[] = [];
+        const layers: any[] = [];
         this.map.layers.forEach(layerData => {
             const layer = this.map.createLayer(layerData.name, tilesets, 0, 0);
             if (layer) layers.push(layer);
@@ -187,7 +186,7 @@ export class PresentationScene extends Phaser.Scene {
             targets: this.player,
             tweens: tweens,
             onComplete: () => {
-                this.finishMovement(finalWp);
+                this.finishMovement();
             }
         });
     }
@@ -210,11 +209,11 @@ export class PresentationScene extends Phaser.Scene {
             y: targetY,
             duration: wp.travelTime,
             ease: 'Linear',
-            onComplete: () => this.finishMovement(wp)
+            onComplete: () => this.finishMovement()
         });
     }
 
-    private finishMovement(wp: any) {
+    private finishMovement() {
         this.player.stop();
         this.player.setTexture('empleado_idle_down');
         this.isMoving = false;
