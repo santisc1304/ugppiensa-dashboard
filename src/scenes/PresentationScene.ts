@@ -93,6 +93,7 @@ export class PresentationScene extends Phaser.Scene {
         
         document.getElementById('btn-next')?.addEventListener('click', () => this.advance());
         document.getElementById('btn-prev')?.addEventListener('click', () => this.retreat());
+        document.getElementById('btn-action')?.addEventListener('click', () => this.toggleSlide());
     }
 
     private toggleSlide() {
