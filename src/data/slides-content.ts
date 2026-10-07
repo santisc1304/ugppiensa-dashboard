@@ -184,14 +184,18 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                     <h2>Proyección de Cumplimiento Escalonado</h2>
                     
                     <div class="content-box highlight">
-                        <div class="grid-2">
+                        <div class="grid-3">
                             <div>
-                                <h3 style="color:#10b981;">1. Adopción Masiva (Escalabilidad)</h3>
-                                <p><strong>ESTADO: CUMPLIDO.</strong> El ROI innegable en la prueba de 38 funcionarios asegura la adopción orgánica masiva, apuntando al 100% de la inducción proyectada para los 600 servidores.</p>
+                                <h3 style="color:#10b981; font-size: 1.1rem;">1. Adopción Masiva</h3>
+                                <p style="font-size: 0.9rem;"><strong>ESTADO: CUMPLIDO.</strong> El ROI innegable asegura la adopción orgánica masiva al 100%.</p>
                             </div>
                             <div>
-                                <h3 style="color:#10b981;">2. Asimilación (>60%)</h3>
-                                <p><strong>ESTADO: CUMPLIDO.</strong> La telemetría confirma que la precisión de los funcionarios rozó el 84.2%, superando sobradamente la meta de retención pedagógica estipulada.</p>
+                                <h3 style="color:#10b981; font-size: 1.1rem;">2. Asimilación (>60%)</h3>
+                                <p style="font-size: 0.9rem;"><strong>ESTADO: CUMPLIDO.</strong> La precisión rozó el 84.2%, superando la meta de retención estipulada.</p>
+                            </div>
+                            <div>
+                                <h3 style="color:#10b981; font-size: 1.1rem;">3. Impacto Bienestar</h3>
+                                <p style="font-size: 0.9rem;"><strong>ESTADO: CUMPLIDO.</strong> La valoración del alivio de sedentarismo alcanzó el máximo rango de excelencia (>90%).</p>
                             </div>
                         </div>
                     </div>
