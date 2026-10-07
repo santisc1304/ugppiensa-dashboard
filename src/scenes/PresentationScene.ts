@@ -334,7 +334,7 @@ export class PresentationScene extends Phaser.Scene {
 
     private scheduleRoam(npc: Phaser.Physics.Arcade.Sprite, zone: RoamingZone, tileWidth: number, tileHeight: number) {
         // Pausa aleatoria antes del próximo movimiento para simular ritmo natural de oficina
-        const delay = Phaser.Math.Between(2500, 6000);
+        const delay = Phaser.Math.Between(1000, 2000);
         this.time.delayedCall(delay, () => {
             if (!this.scene.isActive()) return;
 
