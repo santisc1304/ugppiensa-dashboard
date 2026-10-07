@@ -16,22 +16,31 @@ export class ChartFactory {
         Chart.defaults.font.family = "'Plus Jakarta Sans', sans-serif";
         Chart.defaults.font.size = 14;
 
+        const liveData = config.data;
+        if (!liveData) {
+            console.warn("No live data available for charts.");
+            return;
+        }
+
         switch (config.type) {
-            case 'conversion-viral':
+            case 'learning-curve': {
+                const labels = liveData.timeline.map((t: any) => new Date(t.fecha).toLocaleDateString());
+                const puntajes = liveData.timeline.map((t: any) => t.puntaje);
+                
                 this.currentChart = new Chart(ctx, {
                     type: 'line',
                     data: {
-                        labels: ['Semana 1', 'Semana 2', 'Semana 2.5 (Cierre)'],
+                        labels: labels,
                         datasets: [{
-                            label: 'Usuarios Activos Acumulados (Canal Orgánico)',
-                            data: [7, 25, 38],
-                            borderColor: '#ec4899',
-                            backgroundColor: 'rgba(236, 72, 153, 0.2)',
+                            label: 'Puntaje Promedio Normativo (%)',
+                            data: puntajes,
+                            borderColor: '#10b981',
+                            backgroundColor: 'rgba(16, 185, 129, 0.2)',
                             borderWidth: 3,
                             fill: true,
                             tension: 0.4,
-                            pointRadius: 6,
-                            pointBackgroundColor: '#ec4899'
+                            pointRadius: 5,
+                            pointBackgroundColor: '#10b981'
                         }]
                     },
                     options: {
@@ -42,60 +51,65 @@ export class ChartFactory {
                             tooltip: { mode: 'index', intersect: false }
                         },
                         scales: {
-                            y: { beginAtZero: true, max: 83, title: { display: true, text: 'Usuarios (Meta n=83)' } }
+                            y: { beginAtZero: true, max: 100, title: { display: true, text: 'Puntaje (%)' } }
                         }
                     }
                 });
                 break;
-                
-            case 'knowledge-precision':
+            }
+
+            case 'error-reduction': {
+                const labels = liveData.timeline.map((t: any) => new Date(t.fecha).toLocaleDateString());
+                const errores = liveData.timeline.map((t: any) => t.errores);
+
                 this.currentChart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels: ['Misión Raíz', 'Lluvia Respuestas', 'Directorios', 'Despacho Ágil'],
-                        datasets: [{
-                            label: '% Precisión Superior al 60%',
-                            data: [87.2, 63.3, 29.3, 16.5],
-                            backgroundColor: [
-                                'rgba(16, 185, 129, 0.8)', // Verde (Cumple)
-                                'rgba(16, 185, 129, 0.8)', // Verde (Cumple)
-                                'rgba(245, 158, 11, 0.8)', // Naranja (Brecha)
-                                'rgba(239, 68, 68, 0.8)'   // Rojo (Brecha Crítica)
-                            ],
-                            borderColor: [
-                                '#10b981', '#10b981', '#f59e0b', '#ef4444'
-                            ],
-                            borderWidth: 1,
-                            borderRadius: 6
-                        }]
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Errores Promedio por Sesión',
+                                data: errores,
+                                backgroundColor: 'rgba(239, 68, 68, 0.8)',
+                                borderRadius: 6
+                            }
+                        ]
                     },
                     options: {
                         responsive: true,
                         maintainAspectRatio: false,
                         plugins: {
-                            legend: { display: false }
+                            legend: { position: 'top' }
                         },
                         scales: {
                             y: { 
-                                beginAtZero: true, 
-                                max: 100,
-                                title: { display: true, text: '% de Usuarios' }
+                                beginAtZero: true,
+                                title: { display: true, text: 'Cantidad de Errores' }
                             }
                         }
                     }
                 });
                 break;
+            }
 
-            case 'wellbeing-impact':
+            case 'wellbeing-balance': {
+                const modulos = liveData.modulos || {};
+                let pausas = 0;
+                let trivias = 0;
+                Object.keys(modulos).forEach(k => {
+                    if (k.toLowerCase().includes('pausa')) pausas += modulos[k];
+                    else trivias += modulos[k];
+                });
+
                 this.currentChart = new Chart(ctx, {
                     type: 'doughnut',
                     data: {
-                        labels: ['Game Activo (Pausas Efectivas)', 'Módulos de Conocimiento'],
+                        labels: ['Módulos de Bienestar (Pausas)', 'Módulos Normativos (Trivias)'],
                         datasets: [{
-                            data: [278, 526],
+                            data: [pausas, trivias],
                             backgroundColor: [
-                                'rgba(16, 185, 129, 0.8)',
-                                'rgba(56, 189, 248, 0.8)'
+                                'rgba(56, 189, 248, 0.8)',
+                                'rgba(236, 72, 153, 0.8)'
                             ],
                             borderColor: ['#0a0f1e', '#0a0f1e'],
                             borderWidth: 2,
@@ -105,13 +119,14 @@ export class ChartFactory {
                     options: {
                         responsive: true,
                         maintainAspectRatio: false,
-                        cutout: '70%',
                         plugins: {
                             legend: { position: 'right' }
-                        }
+                        },
+                        cutout: '70%'
                     }
                 });
                 break;
+            }
         }
     }
 

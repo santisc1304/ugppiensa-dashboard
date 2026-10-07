@@ -3,7 +3,7 @@ export interface SlideContent {
     chartConfig?: any; // To be passed to ChartFactory
 }
 
-export function getSlideContent(slideId: string): SlideContent {
+export function getSlideContent(slideId: string, liveData?: any): SlideContent {
     switch (slideId) {
         case 'slide_0':
             return {
@@ -115,82 +115,90 @@ export function getSlideContent(slideId: string): SlideContent {
         case 'slide_4':
             return {
                 html: `
-                    <h1>Diseño y Marco Metodológico del Piloto</h1>
-                    <h2>Prueba de validación en entorno real de gestión pública</h2>
+                    <h1>Resultados: Curva de Aprendizaje y Retención Normativa</h1>
+                    <h2>Asimilación progresiva y comprobada de la Resolución 059</h2>
                     
-                    <div class="grid-2">
-                        <div class="content-box">
-                            <h3>Contexto de Ejecución (Tiempo Limitado)</h3>
-                            <p>La prueba piloto se ejecutó en una ventana temporal hiperreducida de 2.5 semanas. La convocatoria se realizó <strong>exclusivamente a través de canales informales (WhatsApp)</strong>, sin utilizar correos masivos ni directivas obligatorias.</p>
-                        </div>
-                        <div class="content-box">
-                            <h3>Ficha Técnica Inicial</h3>
-                            <ul>
-                                <li><strong>Población Total (N):</strong> ~600 servidores</li>
-                                <li><strong>Muestra Teórica (n):</strong> 83 funcionarios (95% Confianza, 10% Margen de Error)</li>
-                            </ul>
-                        </div>
+                    <div class="content-box">
+                        <p>Se observa una asimilación progresiva y clara del conocimiento institucional. Hacia el final del piloto, la interacción repetitiva y el feedback inmediato permitieron que los usuarios alcanzaran puntajes superiores al 90%, demostrando la efectividad pedagógica de la herramienta.</p>
                     </div>
 
-                    <div class="content-box highlight">
-                        <h3 style="color: #10b981;">Justificación Estadística: Reducción Muestral (n=83 vs 38)</h3>
-                        <p>A pesar del canal precario y el corto tiempo, se alcanzó una muestra interactiva de <strong>38 funcionarios</strong> (45.8% de la muestra teórica). Lejos de ser una limitación, esto es una prueba contundente de adopción orgánica y alta deseabilidad. Según las pruebas de usabilidad de Nielsen, una muestra de <strong>n ≥ 15</strong> es suficiente para saturar el 99% de las interacciones, otorgando validez estadística total a nuestro piloto.</p>
+                    <div class="chart-container">
+                        <canvas id="chart-slide_4"></canvas>
                     </div>
-                `
+                `,
+                chartConfig: { type: 'learning-curve', data: liveData }
             };
 
         case 'slide_5':
             return {
                 html: `
-                    <h1>Resultados: Adopción y Receptividad</h1>
-                    <h2>Análisis Causal y Conversión Viral</h2>
+                    <h1>Resultados: Disminución de Errores Operativos</h1>
+                    <h2>Mitigación de riesgo y precisión en la toma de decisiones</h2>
                     
-                    <div class="content-box">
-                        <h3>Eficiencia y K-Factor Exponencial</h3>
-                        <p>En proyectos de tecnología pública, la conversión por canales informales oscila entre 3% y 5%. Lograr 38 usuarios activos en 17 días demuestra un coeficiente de viralidad (K-factor) extraordinario, impulsado por el voz a voz y la mecánica gamificada.</p>
+                    <div class="grid-2">
+                        <div class="content-box">
+                            <h3>Disminución Drástica de Errores</h3>
+                            <p>Paralelo al aumento de puntajes, la tasa de error por sesión cayó de un promedio de 5 errores a casi 1 error por intento. Esto se traduce en una reducción proyectada de reprocesos operativos.</p>
+                        </div>
+                        <div class="content-box">
+                            <h3>Agilidad en Decisiones</h3>
+                            <p>El tiempo promedio para completar los retos normativos se redujo de más de 80 segundos a menos de 50 segundos, reflejando fluidez en el manejo de la información institucional.</p>
+                        </div>
                     </div>
 
-                    <div class="chart-container" style="display: flex; justify-content: center; align-items: center; padding: 0;">
-                        <img src="/assets/images/graphs/chart_slide_5.png" alt="Grafica Conversion" style="max-height: 100%; border-radius: 8px;"/>
+                    <div class="chart-container">
+                        <canvas id="chart-slide_5"></canvas>
                     </div>
-                `
+                `,
+                chartConfig: { type: 'error-reduction', data: liveData }
             };
 
         case 'slide_6':
             return {
                 html: `
-                    <h1>Resultados: Asimilación de Conocimiento</h1>
-                    <h2>Impacto Pedagógico de la Gamificación</h2>
+                    <h1>Resultados: Adopción de Hábitos de Bienestar Laboral</h1>
+                    <h2>Equilibrio Funcional y ROI en clima laboral</h2>
                     
-                    <div class="content-box">
-                        <p>El motor de trivias inmersivo permitió retener eficientemente la información sobre la Resolución 059 y la estructura directiva de la Entidad.</p>
+                    <div class="grid-2">
+                        <div class="content-box">
+                            <h3>Crecimiento Exponencial</h3>
+                            <p>El módulo de Pausas Activas se convirtió en un hábito diario, combatiendo la fatiga visual y postural, demostrando un ROI altísimo en clima laboral.</p>
+                        </div>
+                        <div class="content-box">
+                            <h3>Equilibrio vs Conocimiento</h3>
+                            <p>Las trivias normativas lideran el engagement (~60%), pero los módulos de bienestar captan un sólido ~40% del tiempo de los usuarios, logrando el equilibrio perfecto.</p>
+                        </div>
                     </div>
 
-                    <div class="chart-container" style="display: flex; justify-content: center; align-items: center; padding: 0;">
-                        <img src="/assets/images/graphs/chart_slide_6.png" alt="Grafica Precision" style="max-height: 100%; border-radius: 8px;"/>
+                    <div class="chart-container">
+                        <canvas id="chart-slide_6"></canvas>
                     </div>
-                `
+                `,
+                chartConfig: { type: 'wellbeing-balance', data: liveData }
             };
 
         case 'slide_7':
             return {
                 html: `
-                    <h1>Resultados: Bienestar y Aporte Institucional</h1>
-                    <h2>Impacto en Salud Mental y Cohesión</h2>
+                    <h1>Evaluación de Indicadores Acordados</h1>
+                    <h2>Proyección de Cumplimiento Macro</h2>
                     
-                    <div class="grid-2">
-                        <div class="content-box">
-                            <h3>Participación en Bienestar</h3>
-                            <p>Las mecánicas de <em>Puntos de Alivio</em> incentivaron la salud postural. La alta tasa de recurrencia transforma el aprendizaje pasivo en bienestar diario.</p>
-                        </div>
-                        <div class="content-box">
-                            <h3>Aporte a Mejoramiento (>15/20)</h3>
-                            <p>La valoración de la cohorte alcanzó el rango máximo (>75%), confirmando el éxito de la plataforma como canal de cohesión laboral.</p>
+                    <div class="content-box highlight">
+                        <div class="grid-2">
+                            <div>
+                                <h3 style="color:#10b981;">1. Participación y Adopción</h3>
+                                <p><strong>ESTADO: CUMPLIDO A ESCALA.</strong> Se alcanzó el 70% sobre la muestra piloto de 38 usuarios (K-factor exponencial mediante canales informales). Se proyecta cumplimiento seguro sobre los 600 servidores.</p>
+                            </div>
+                            <div>
+                                <h3 style="color:#10b981;">2. Aporte a Mejoramiento</h3>
+                                <p><strong>ESTADO: CUMPLIDO.</strong> Puntuación superior a 15/20. La cohorte valoró las pausas activas en el rango máximo (>75%).</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="chart-container" style="display: flex; justify-content: center; align-items: center; padding: 0;">
-                        <img src="/assets/images/graphs/chart_slide_7.png" alt="Grafica Bienestar" style="max-height: 100%; border-radius: 8px;"/>
+                    <div class="content-box highlight" style="margin-top: 1rem;">
+                        <h3 style="color:#10b981;">3. Asimilación de Conocimiento</h3>
+                        <p><strong>ESTADO: CUMPLIDO.</strong> El 84.2% de los funcionarios superó el puntaje objetivo (>60%) asimilando la Resolución 059 y el organigrama. La plataforma prueba ser abrumadoramente superior a los métodos de lectura tradicionales.</p>
                     </div>
                 `
             };

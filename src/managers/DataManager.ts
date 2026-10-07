@@ -22,14 +22,13 @@ export class DataManager {
         try {
             if (!this.supabase) throw new Error('Supabase not configured');
             
-            // Example live query
-            const { data, error } = await this.supabase
-                .from('telemetria_partidas')
-                .select('*');
+            // Call the public RPC function
+            const { data, error } = await this.supabase.rpc('get_dashboard_aggregates');
 
             if (error) throw error;
             
-            this.cachedData = this.processData(data);
+            this.cachedData = data;
+            console.log("Real-time Dashboard Data loaded:", this.cachedData);
             return this.cachedData;
         } catch (err) {
             console.error('Failed to fetch from Supabase, using local snapshot:', err);
@@ -41,15 +40,5 @@ export class DataManager {
             }
             return null;
         }
-    }
-
-    private static processData(rawData: any[]) {
-        // Calculate aggregations like total sessions, users, precision, etc.
-        // For the sake of this prototype, we return the calculated stats
-        // if rawData is available, otherwise return default snapshot structure
-        return {
-            totalSessions: rawData.length,
-            // ... more aggregations
-        };
     }
 }

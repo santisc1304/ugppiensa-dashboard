@@ -1,5 +1,6 @@
 import { getSlideContent } from '../data/slides-content';
 import { ChartFactory } from '../charts/ChartFactory';
+import { DataManager } from './DataManager';
 
 export class SlideManager {
     private static overlay: HTMLDivElement | null = null;
@@ -31,15 +32,17 @@ export class SlideManager {
         });
     }
 
-    static open(slideId: string, onClose?: () => void) {
+    static async open(slideId: string, onClose?: () => void) {
         if (!this.overlay) this.initialize();
         if (!this.overlay) return;
 
         this.onCloseCallback = onClose || null;
 
+        const liveData = await DataManager.fetchData();
+
         const contentDiv = this.overlay.querySelector('.slide-content');
         if (contentDiv) {
-            const data = getSlideContent(slideId);
+            const data = getSlideContent(slideId, liveData);
             contentDiv.innerHTML = data.html;
 
             // Si el slide necesita gráficas, las inicializamos aquí
