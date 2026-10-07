@@ -67,7 +67,7 @@ export class SlideManager {
         this.isSlideOpen = false;
         
         // Destruir instancias de chart si existen
-        ChartFactory.destroyCurrentChart();
+        ChartFactory.destroyCurrentCharts();
 
         if (this.onCloseCallback) {
             this.onCloseCallback();
