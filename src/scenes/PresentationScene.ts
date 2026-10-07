@@ -87,6 +87,10 @@ export class PresentationScene extends Phaser.Scene {
         this.cameras.main.startFollow(this.player, true, 0.05, 0.05);
         this.cameras.main.setZoom(1.5); // Ajustado para ver mejor el entorno escalado
 
+        // Mostrar HUD
+        const hud = document.getElementById('hud');
+        if (hud) hud.style.display = 'flex';
+
         this.input.keyboard?.on('keydown-RIGHT', () => this.advance());
         this.input.keyboard?.on('keydown-LEFT', () => this.retreat());
         this.input.keyboard?.on('keydown-SPACE', () => this.toggleSlide());
@@ -94,6 +98,39 @@ export class PresentationScene extends Phaser.Scene {
         document.getElementById('btn-next')?.addEventListener('click', () => this.advance());
         document.getElementById('btn-prev')?.addEventListener('click', () => this.retreat());
         document.getElementById('btn-action')?.addEventListener('click', () => this.toggleSlide());
+        
+        // Logica para Modal de Índice
+        const btnIndex = document.getElementById('btn-index');
+        const modalIndex = document.getElementById('index-modal');
+        const closeIndex = document.getElementById('close-index');
+        const indexList = document.getElementById('index-list');
+
+        if (btnIndex && modalIndex && closeIndex && indexList && indexList.children.length === 0) {
+            btnIndex.addEventListener('click', () => {
+                if (this.isMoving) return;
+                modalIndex.classList.add('active');
+            });
+
+            closeIndex.addEventListener('click', () => {
+                modalIndex.classList.remove('active');
+            });
+
+            WAYPOINTS_CONFIG.forEach((wp, idx) => {
+                const btn = document.createElement('button');
+                btn.className = 'nav-btn';
+                btn.style.width = '100%';
+                btn.style.textAlign = 'left';
+                btn.innerText = `${idx + 1}. ${wp.slideId.replace('slide_', 'Sección ')}`;
+                btn.onclick = () => {
+                    modalIndex.classList.remove('active');
+                    if (this.currentWaypointIndex !== idx) {
+                        this.currentWaypointIndex = idx;
+                        this.moveToWaypoint(WAYPOINTS_CONFIG[this.currentWaypointIndex]);
+                    }
+                };
+                indexList.appendChild(btn);
+            });
+        }
     }
 
     private toggleSlide() {
@@ -107,15 +144,21 @@ export class PresentationScene extends Phaser.Scene {
 
     private advance() {
         if (this.isMoving || SlideManager.isOpen()) return;
-        if (this.currentWaypointIndex >= WAYPOINTS_CONFIG.length - 1) return;
-        this.currentWaypointIndex++;
+        if (this.currentWaypointIndex >= WAYPOINTS_CONFIG.length - 1) {
+            this.currentWaypointIndex = 0;
+        } else {
+            this.currentWaypointIndex++;
+        }
         this.moveToWaypoint(WAYPOINTS_CONFIG[this.currentWaypointIndex]);
     }
 
     private retreat() {
         if (this.isMoving || SlideManager.isOpen()) return;
-        if (this.currentWaypointIndex <= 0) return;
-        this.currentWaypointIndex--;
+        if (this.currentWaypointIndex <= 0) {
+            this.currentWaypointIndex = WAYPOINTS_CONFIG.length - 1;
+        } else {
+            this.currentWaypointIndex--;
+        }
         this.moveToWaypoint(WAYPOINTS_CONFIG[this.currentWaypointIndex]);
     }
 

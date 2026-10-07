@@ -148,17 +148,29 @@ export class ChartFactory {
 
             case 'wellbeing-balance': {
                 const modulos = liveData.modulos || {};
-                const labels = Object.keys(modulos).map(k => k.replace(/_/g, ' '));
-                const dataVals = Object.values(modulos);
+                
+                // Filtrar "Test_Modulo" y "Registro_Historico_Consolidado"
+                const filteredKeys = Object.keys(modulos).filter(k => 
+                    k !== 'Test_Modulo' && k !== 'Registro_Historico_Consolidado'
+                );
+                
+                const total = filteredKeys.reduce((sum, key) => sum + modulos[key], 0);
+
+                const labels = filteredKeys.map(k => {
+                    const name = k.replace(/_/g, ' ');
+                    const val = modulos[k] as number;
+                    const pct = total > 0 ? ((val / total) * 100).toFixed(1) : 0;
+                    return `${name} (${pct}%)`;
+                });
+                
+                const dataVals = filteredKeys.map(k => modulos[k]);
                 
                 const backgroundColors = [
                     'rgba(56, 189, 248, 0.8)', // Azul claro
                     'rgba(236, 72, 153, 0.8)', // Rosa
                     'rgba(16, 185, 129, 0.8)', // Verde
                     'rgba(245, 158, 11, 0.8)', // Naranja
-                    'rgba(139, 92, 246, 0.8)', // Morado
-                    'rgba(239, 68, 68, 0.8)',  // Rojo
-                    'rgba(100, 116, 139, 0.8)' // Gris
+                    'rgba(139, 92, 246, 0.8)'  // Morado
                 ];
 
                 const chart = new Chart(ctx, {
@@ -166,7 +178,7 @@ export class ChartFactory {
                     data: {
                         labels: labels,
                         datasets: [{
-                            data: dataVals,
+                            data: dataVals as number[],
                             backgroundColor: backgroundColors.slice(0, labels.length),
                             borderColor: ['#0a0f1e'],
                             borderWidth: 2,

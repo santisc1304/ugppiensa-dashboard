@@ -8,10 +8,22 @@
   </head>
   <body>
     <div id="app"></div>
-    <div id="hud" class="nav-hud">
+    <div id="hud" class="nav-hud" style="display: none;">
       <button id="btn-prev" class="nav-btn">← Anterior</button>
+      <button id="btn-index" class="nav-btn" style="background: rgba(16, 185, 129, 0.85); border-color: #10b981;">☰ Índice</button>
       <button id="btn-action" class="nav-btn">Contenido</button>
       <button id="btn-next" class="nav-btn">Siguiente →</button>
+    </div>
+
+    <!-- Modal de Índice -->
+    <div id="index-modal" class="slide-overlay">
+      <div class="slide-content" style="max-width: 600px;">
+        <button id="close-index" class="close-btn">×</button>
+        <h1 style="text-align: center; margin-bottom: 2rem;">Índice de Secciones</h1>
+        <div id="index-list" style="display: flex; flex-direction: column; gap: 1rem;">
+          <!-- Llenado dinámicamente -->
+        </div>
+      </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
