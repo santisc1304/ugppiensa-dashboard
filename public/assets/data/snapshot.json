@@ -1,14 +1,45 @@
 {
-    "totalSessions": 804,
-    "uniqueUsers": 58,
-    "departments": 8,
-    "precisionGlobal": 71.29,
-    "timeAvg": 323,
-    "modules": {
-        "gameActivo": 278,
-        "directorios": 164,
-        "lluvia": 147,
-        "despacho": 121,
-        "misionRaiz": 86
-    }
+  "avg_errores": 3.48,
+  "avg_puntaje": 66.86,
+  "avg_tiempo": 247.56,
+  "modulos": {
+    "Despacho_Agil": 144,
+    "Directorios_Agiles": 170,
+    "Game_Activo_Pausa": 343,
+    "Lluvia_Respuestas": 257,
+    "Mision_Raiz": 180,
+    "Registro_Historico_Consolidado": 7,
+    "Test_Modulo": 1
+  },
+  "precision_modulos": [
+    { "modulo_jugado": "Game_Activo_Pausa", "precision_mayor_60": 100 },
+    { "modulo_jugado": "Mision_Raiz", "precision_mayor_60": 93.88 },
+    { "modulo_jugado": "Despacho_Agil", "precision_mayor_60": 26.38 },
+    { "modulo_jugado": "Directorios_Agiles", "precision_mayor_60": 15.29 },
+    { "modulo_jugado": "Test_Modulo", "precision_mayor_60": 100 },
+    { "modulo_jugado": "Registro_Historico_Consolidado", "precision_mayor_60": 71.42 },
+    { "modulo_jugado": "Lluvia_Respuestas", "precision_mayor_60": 76.26 }
+  ],
+  "timeline": [
+    { "errores": 0, "fecha": "2026-09-15", "partidas": 1, "puntaje": 0, "usuarios": 1 },
+    { "errores": 0, "fecha": "2026-09-16", "partidas": 1, "puntaje": 0, "usuarios": 1 },
+    { "errores": 0, "fecha": "2026-09-17", "partidas": 2, "puntaje": 120, "usuarios": 2 },
+    { "errores": 0, "fecha": "2026-09-18", "partidas": 1, "puntaje": 199, "usuarios": 1 },
+    { "errores": 0, "fecha": "2026-09-19", "partidas": 2, "puntaje": 398.5, "usuarios": 2 },
+    { "errores": 7.77, "fecha": "2026-09-22", "partidas": 170, "puntaje": 30.01, "usuarios": 20 },
+    { "errores": 4.7, "fecha": "2026-09-23", "partidas": 20, "puntaje": 43.05, "usuarios": 3 },
+    { "errores": 5.01, "fecha": "2026-09-24", "partidas": 52, "puntaje": 72.11, "usuarios": 11 },
+    { "errores": 3.72, "fecha": "2026-09-25", "partidas": 203, "puntaje": 118.7, "usuarios": 12 },
+    { "errores": 2.37, "fecha": "2026-09-26", "partidas": 24, "puntaje": 87.37, "usuarios": 4 },
+    { "errores": 3.62, "fecha": "2026-09-28", "partidas": 51, "puntaje": 107.25, "usuarios": 4 },
+    { "errores": 3.52, "fecha": "2026-09-29", "partidas": 146, "puntaje": 90.89, "usuarios": 11 },
+    { "errores": 0, "fecha": "2026-09-30", "partidas": 2, "puntaje": 50, "usuarios": 2 },
+    { "errores": 1.81, "fecha": "2026-10-01", "partidas": 129, "puntaje": 33.48, "usuarios": 5 },
+    { "errores": 0.92, "fecha": "2026-10-02", "partidas": 82, "puntaje": 36.25, "usuarios": 3 },
+    { "errores": 2.64, "fecha": "2026-10-05", "partidas": 17, "puntaje": 50.52, "usuarios": 2 },
+    { "errores": 1.67, "fecha": "2026-10-06", "partidas": 162, "puntaje": 50.5, "usuarios": 8 },
+    { "errores": 0.54, "fecha": "2026-10-07", "partidas": 37, "puntaje": 36.78, "usuarios": 2 }
+  ],
+  "total_partidas": 1102,
+  "total_usuarios": 66
 }

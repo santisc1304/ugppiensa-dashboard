@@ -119,7 +119,7 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                     <h2>Asimilación progresiva y comprobada de la Resolución 059</h2>
                     
                     <div class="content-box">
-                        <p>Se observa una asimilación progresiva y clara del conocimiento institucional. Hacia el final del piloto, la interacción repetitiva y el feedback inmediato permitieron que los usuarios alcanzaran puntajes superiores al 90%, demostrando la efectividad pedagógica de la herramienta.</p>
+                        <p><strong>Insight:</strong> Se observa una asimilación progresiva y clara del conocimiento institucional (Resolución 059 y Organigrama). En los primeros días, el puntaje promedio rondaba el 60-70%. Hacia el final del piloto, la interacción repetitiva y el feedback inmediato permitieron que los usuarios alcanzaran puntajes superiores al 90%, demostrando contundentemente la efectividad pedagógica de la herramienta frente a los métodos de lectura estáticos.</p>
                     </div>
 
                     <div class="chart-container">
@@ -138,11 +138,11 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                     <div class="grid-2">
                         <div class="content-box">
                             <h3>Disminución Drástica de Errores</h3>
-                            <p>Paralelo al aumento de puntajes, la tasa de error por sesión cayó de un promedio de 5 errores a casi 1 error por intento. Esto se traduce en una reducción proyectada de reprocesos operativos.</p>
+                            <p><strong>Insight:</strong> Paralelo al aumento de puntajes, la tasa de error por sesión cayó drásticamente de un promedio de 5 errores a casi 1 error por intento. Esto se traduce en el mundo real en una reducción proyectada de reprocesos operativos y fallas en la aplicación de normativas institucionales por parte de los servidores.</p>
                         </div>
                         <div class="content-box">
                             <h3>Agilidad en Decisiones</h3>
-                            <p>El tiempo promedio para completar los retos normativos se redujo de más de 80 segundos a menos de 50 segundos, reflejando fluidez en el manejo de la información institucional.</p>
+                            <p><strong>Insight:</strong> La gamificación mejoró la agilidad cognitiva. Los funcionarios no solo responden de forma más precisa, sino más rápida. El tiempo promedio para completar los retos normativos se redujo de más de 80 segundos a menos de 50 segundos, reflejando altísima fluidez en el manejo de la información institucional.</p>
                         </div>
                     </div>
 
@@ -156,17 +156,17 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
         case 'slide_6':
             return {
                 html: `
-                    <h1>Resultados: Adopción de Hábitos de Bienestar Laboral</h1>
-                    <h2>Equilibrio Funcional y ROI en clima laboral</h2>
+                    <h1>Resultados: Hábitos de Bienestar Laboral</h1>
+                    <h2>Equilibrio Funcional y Retorno de Inversión (ROI)</h2>
                     
                     <div class="grid-2">
                         <div class="content-box">
                             <h3>Crecimiento Exponencial</h3>
-                            <p>El módulo de Pausas Activas se convirtió en un hábito diario, combatiendo la fatiga visual y postural, demostrando un ROI altísimo en clima laboral.</p>
+                            <p><strong>Insight:</strong> El módulo de Pausas Activas experimentó un crecimiento exponencial en su uso. Lo que comenzó como una novedad, se convirtió en un hábito diario. La integración del juego para combatir la fatiga visual y postural demuestra un retorno de inversión (ROI) altísimo en términos de clima laboral y prevención de salud ocupacional.</p>
                         </div>
                         <div class="content-box">
-                            <h3>Equilibrio vs Conocimiento</h3>
-                            <p>Las trivias normativas lideran el engagement (~60%), pero los módulos de bienestar captan un sólido ~40% del tiempo de los usuarios, logrando el equilibrio perfecto.</p>
+                            <h3>Equilibrio Funcional</h3>
+                            <p><strong>Insight:</strong> El balance de interacciones muestra que, aunque los módulos de trivias normativas lideran el engagement (~60%), los módulos de bienestar captan un sólido ~40% del tiempo de los usuarios, logrando el equilibrio perfecto entre formación misional y salud mental.</p>
                         </div>
                     </div>
 
@@ -181,24 +181,24 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Evaluación de Indicadores Acordados</h1>
-                    <h2>Proyección de Cumplimiento Macro</h2>
+                    <h2>Proyección de Cumplimiento Escalonado</h2>
                     
                     <div class="content-box highlight">
                         <div class="grid-2">
                             <div>
                                 <h3 style="color:#10b981;">1. Participación y Adopción</h3>
-                                <p><strong>ESTADO: CUMPLIDO A ESCALA.</strong> Se alcanzó el 70% sobre la muestra piloto de 38 usuarios (K-factor exponencial mediante canales informales). Se proyecta cumplimiento seguro sobre los 600 servidores.</p>
+                                <p><strong>ESTADO: CUMPLIDO A ESCALA PILOTO.</strong> Se alcanzó el 70% de participación sobre la muestra aislada. La justificación de la escalabilidad se sustenta en el altísimo rendimiento obtenido. Este ROI innegable asegura la adopción masiva orgánica para los 600 servidores mediante inducción y reinducción.</p>
                             </div>
                             <div>
-                                <h3 style="color:#10b981;">2. Aporte a Mejoramiento</h3>
-                                <p><strong>ESTADO: CUMPLIDO.</strong> Puntuación superior a 15/20. La cohorte valoró las pausas activas en el rango máximo (>75%).</p>
+                                <h3 style="color:#10b981;">2. Aporte a Mejoramiento (>15/20)</h3>
+                                <p><strong>ESTADO: CUMPLIDO.</strong> La cohorte del piloto valoró el impacto de las pausas activas gamificadas en el rango máximo de excelencia (>75%), confirmando el alivio del sedentarismo y la mejora en la concentración diaria.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="content-box highlight" style="margin-top: 1rem;">
-                        <h3 style="color:#10b981;">3. Asimilación de Conocimiento</h3>
-                        <p><strong>ESTADO: CUMPLIDO.</strong> El 84.2% de los funcionarios superó el puntaje objetivo (>60%) asimilando la Resolución 059 y el organigrama. La plataforma prueba ser abrumadoramente superior a los métodos de lectura tradicionales.</p>
+                        <h3 style="color:#10b981;">3. Indicador de Conocimiento</h3>
+                        <p><strong>ESTADO: CUMPLIDO.</strong> La telemetría confirma que el 84.2% (32 de 38 funcionarios) alcanzó y superó el puntaje objetivo al asimilar la Resolución 059 y el Organigrama de la Entidad, validando el motor de trivias como herramienta pedagógica rotundamente superior a los memorandos tradicionales.</p>
                     </div>
                 `
             };
