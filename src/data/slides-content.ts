@@ -92,37 +92,33 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Metodología de Desarrollo</h1>
-                    <h2>Cómo construimos y adaptamos el proyecto paso a paso</h2>
+                    <h2>Estructuración integral de los contenidos misionales</h2>
                     
-                    <div class="grid-2" style="gap: 1.2rem; margin-bottom: 1.2rem;">
-                        <div class="content-box" style="margin-bottom: 0; padding: 1.3rem; border-left: 4px solid #38bdf8;">
-                            <h3 style="color: #38bdf8; font-size: 1.2rem; margin-top: 0; margin-bottom: 0.8rem;">
-                                1. Creación de Contenidos y Preguntas
-                            </h3>
-                            <ul style="padding-left: 1.2rem; margin: 0; line-height: 1.6; font-size: 0.95rem;">
-                                <li><strong>Más de 150 preguntas de trivia:</strong> Elaboradas a partir de la Resolución 059 de 2026 y los insumos del juego PWA, cubriendo la estructura y funciones de cada dependencia de la UGPP.</li>
-                                <li><strong>40 casos para el juego de casos:</strong> Situaciones prácticas diseñadas para que los funcionarios tomen decisiones sobre casos del día a día.</li>
-                                <li><strong>40 preguntas con varias opciones correctas:</strong> Diseñadas para el juego «Lluvia de Preguntas», desafiando la agilidad mental y los conocimientos de forma dinámica.</li>
-                            </ul>
-                        </div>
-
-                        <div class="content-box" style="margin-bottom: 0; padding: 1.3rem; border-left: 4px solid #10b981;">
-                            <h3 style="color: #10b981; font-size: 1.2rem; margin-top: 0; margin-bottom: 0.8rem;">
-                                2. Espacios Interactivos y NPCs
-                            </h3>
-                            <ul style="padding-left: 1.2rem; margin: 0; line-height: 1.6; font-size: 0.95rem;">
-                                <li><strong>Diseño y adaptación de oficinas:</strong> Recreamos los espacios físicos del piso 2 en un entorno virtual accesible desde cualquier dispositivo, con minimapa y zonas de libre circulación.</li>
-                                <li><strong>NPCs con roles y rutas reales:</strong> Creamos personajes que recorren la oficina siguiendo rutas definidas, con diálogos adaptados al funcionario y la dependencia que interpretan.</li>
-                            </ul>
-                        </div>
+                    <div class="content-box">
+                        <p style="font-size: 1.05rem; margin-bottom: 1rem;">
+                            El desarrollo de UGPPIENSA involucró una fase ordenada de depuración y diseño de contenidos basada en información oficial de la Entidad:
+                        </p>
+                        <ul style="padding-left: 1.2rem; line-height: 1.7; font-size: 0.95rem;">
+                            <li><strong>1. Revisión del organigrama de la UGPP:</strong> Mapeo de Direcciones, Subdirecciones y Grupos Internos de Trabajo (GIT).</li>
+                            <li><strong>2. Depuración de la Resolución 059 de 2026 e insumos PWA:</strong> Extracción de funciones, competencias y marco institucional de cada área.</li>
+                            <li><strong>3. Identificación de funcionarios clave por dependencia:</strong> Caracterización de los colaboradores y líderes que representan a cada equipo.</li>
+                            <li><strong>4. Delimitación espacial y diseño de espacios interactivos:</strong> Adaptación digital del piso 2 de la oficina, creación del mapa interactivo y minimapa oficial.</li>
+                            <li><strong>5. Diseño y configuración de NPCs interactivos:</strong> Personajes no jugables con rutas de movimiento programadas por la oficina y diálogos adaptados al funcionario que interpretan.</li>
+                            <li><strong>6. Creación y estructuración de contenidos formativos:</strong>
+                                <ul style="margin-top: 0.3rem; margin-bottom: 0.3rem; padding-left: 1.5rem;">
+                                    <li><strong>Más de 200 preguntas de trivia:</strong> Elaboradas a partir de la Resolución 059 de 2026 y los insumos del juego PWA, con explicaciones claras de cada respuesta.</li>
+                                    <li><strong>40 casos para el juego de los casos:</strong> Situaciones prácticas de despacho para resolver decisiones cotidianas de la entidad.</li>
+                                    <li><strong>40 preguntas con varias opciones correctas:</strong> Diseñadas para el juego «Lluvia de Preguntas», desafiando la agilidad y los conocimientos.</li>
+                                </ul>
+                            </li>
+                            <li><strong>7. Conexión con la base de datos de Supabase y ranking funcional:</strong> Integración técnica para guardar en tiempo real las estadísticas de los usuarios (partidas, tiempos, aciertos y errores) y dejar completamente funcional el cuadro de honor en vivo.</li>
+                        </ul>
                     </div>
 
-                    <div class="content-box highlight" style="padding: 1.3rem;">
-                        <h3 style="color: #ec4899; font-size: 1.2rem; margin-top: 0; margin-bottom: 0.6rem;">
-                            3. Conexión con Supabase y Ranking en Tiempo Real
-                        </h3>
-                        <p style="font-size: 0.98rem; line-height: 1.6; margin: 0; color: #f1f5f9;">
-                            Integramos el juego directamente con la base de datos de <strong>Supabase</strong> para registrar las estadísticas de los usuarios en tiempo real (puntajes, tiempos, aciertos y errores). De esta forma, el <strong>ranking de líderes quedó completamente funcional y en vivo</strong>, motivando a los participantes y reconociendo el esfuerzo de cada área.
+                    <div class="content-box highlight">
+                        <h3 style="color: #ec4899; margin-top: 0; margin-bottom: 0.6rem;">Plataforma PWA y Metaverso 2.5D</h3>
+                        <p style="font-size: 0.98rem; line-height: 1.6; margin: 0;">
+                            El resultado es una <strong>Aplicación Web Progresiva (PWA)</strong>, accesible desde cualquier dispositivo (computador o celular), simulando el entorno real de trabajo con colisiones dinámicas, NPCs interactivos, minimapa en tiempo real, ranking en vivo y controles versátiles para una experiencia fluida.
                         </p>
                     </div>
                 `
