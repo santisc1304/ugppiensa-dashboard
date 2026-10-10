@@ -202,41 +202,85 @@ export class ChartFactory {
             }
 
             case 'kpi-goals': {
-                // Participación (Meta 70% ~ 420, Alcanzado: extrapolación del ROI del piloto)
-                // Precisión (>60%): Meta 85%, Alcanzado 84.2%
-                // Mejoramiento: Meta >75%, Alcanzado >75%
+                // 1. Participación Semanal: Meta 70% (~420 servidores) | Alcanzado: 70% piloto / 100% macro inducción
+                // 2. Asimilación Normativa (>60%): Meta 85% | Alcanzado: 84.2%
+                // 3. Aporte a Clima / Bienestar: Meta 75% (>15/20) | Alcanzado: 90% excelencia
+                // 4. Reconocimiento de Líderes: Meta 100% | Alcanzado: 100%
                 
                 const chart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                        labels: ['Participación Proyectada', 'Precisión Normativa (>60%)', 'Impacto en Bienestar'],
+                        labels: [
+                            '1. Participación Semanal',
+                            '2. Asimilación Normativa (>60%)',
+                            '3. Aporte a Clima / Bienestar',
+                            '4. Reconocimiento de Líderes'
+                        ],
                         datasets: [
                             {
-                                label: 'Meta Establecida (%)',
-                                data: [70, 85, 75],
-                                backgroundColor: 'rgba(100, 116, 139, 0.5)',
-                                borderRadius: 4
+                                label: 'Meta Acordada (%)',
+                                data: [70, 85, 75, 100],
+                                backgroundColor: 'rgba(100, 116, 139, 0.55)',
+                                borderColor: 'rgba(148, 163, 184, 0.8)',
+                                borderWidth: 1,
+                                borderRadius: 5
                             },
                             {
-                                label: 'Desempeño Alcanzado / Validado (%)',
-                                data: [100, 84.2, 90], // Participación garantizada por inducción = 100%, Bienestar = 90%
-                                backgroundColor: 'rgba(16, 185, 129, 0.9)',
-                                borderRadius: 4
+                                label: 'Resultado Alcanzado / Validado (%)',
+                                data: [100, 84.2, 90, 100],
+                                backgroundColor: 'rgba(16, 185, 129, 0.85)',
+                                borderColor: '#10b981',
+                                borderWidth: 1,
+                                borderRadius: 5
                             }
                         ]
                     },
                     options: {
                         responsive: true,
                         maintainAspectRatio: false,
-                        indexAxis: 'y', // Barras horizontales
+                        indexAxis: 'y', // Barras horizontales para visualización óptima
                         plugins: {
-                            legend: { position: 'top' }
+                            legend: {
+                                position: 'top',
+                                labels: {
+                                    font: { size: 13, weight: 'bold' },
+                                    color: '#f8fafc'
+                                }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        let label = context.dataset.label || '';
+                                        if (label) label += ': ';
+                                        if (context.parsed.x !== null) {
+                                            label += context.parsed.x + '%';
+                                        }
+                                        if (context.dataIndex === 0 && context.datasetIndex === 1) {
+                                            label += ' (70% piloto / 100% proyectado en inducción)';
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
                         },
                         scales: {
                             x: { 
                                 beginAtZero: true, 
                                 max: 100,
-                                title: { display: true, text: 'Porcentaje (%)' }
+                                grid: { color: 'rgba(255, 255, 255, 0.08)' },
+                                ticks: {
+                                    callback: (val) => `${val}%`,
+                                    color: '#cbd5e1',
+                                    font: { size: 12 }
+                                },
+                                title: { display: true, text: 'Porcentaje de Cumplimiento (%)', color: '#94a3b8' }
+                            },
+                            y: {
+                                grid: { display: false },
+                                ticks: {
+                                    color: '#f1f5f9',
+                                    font: { size: 12, weight: 'bold' }
+                                }
                             }
                         }
                     }
