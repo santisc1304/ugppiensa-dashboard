@@ -90,5 +90,14 @@ export const WAYPOINTS_CONFIG: WaypointConfig[] = [
     slideId: "slide_8",
     greeting: "En conclusión...",
     travelTime: 3500,
+  },
+  {
+    id: 9,
+    tileX: 50,
+    tileY: 55,
+    npcId: "npc_9",
+    slideId: "slide_9",
+    greeting: "¡Muchas gracias por acompañarnos!",
+    travelTime: 3000,
   }
 ];

@@ -12,7 +12,8 @@ const SLIDE_TITLES: Record<string, string> = {
     slide_5: '6. Disminución de Errores Operativos',
     slide_6: '7. Participación por Módulos y Juegos',
     slide_7: '8. Evaluación de Indicadores Acordados',
-    slide_8: '9. Conclusión y Viabilidad Estratégica'
+    slide_8: '9. Conclusión y Viabilidad Estratégica',
+    slide_9: '10. Cierre y Agradecimientos'
 };
 
 interface RoamingZone {
@@ -22,39 +23,45 @@ interface RoamingZone {
     bounds: { minX: number; maxX: number; minY: number; maxY: number };
 }
 
-// 15 NPCs distribuidos por la oficina alternando skins (empleado / empleada)
-// Zonas 100% libres de colisión con las 72 rutas de navegación del jugador
+// NPCs distribuidos cerca de las rutas de movimiento del jugador
+// Cumple con la reubicación solicitada (rectángulo 44..51, 11..13) y cubre pasillos activos
 const ROAMING_ZONES: RoamingZone[] = [
-    // 1. Cubículos Este Sur
-    { char: 'empleado', startX: 93, startY: 34, bounds: { minX: 91, maxX: 95, minY: 33, maxY: 36 } },
-    // 2. Sala Suroeste Zona A
-    { char: 'empleada', startX: 8, startY: 40, bounds: { minX: 6, maxX: 9, minY: 39, maxY: 41 } },
-    // 3. Recepción Derecha Zona A
-    { char: 'empleado', startX: 64, startY: 51, bounds: { minX: 63, maxX: 66, minY: 49, maxY: 52 } },
-    // 4. Zona Sur Pasillo A
-    { char: 'empleada', startX: 30, startY: 49, bounds: { minX: 28, maxX: 31, minY: 48, maxY: 50 } },
-    // 5. Oficina Central Superior Zona Este
-    { char: 'empleado', startX: 50, startY: 4, bounds: { minX: 48, maxX: 52, minY: 2, maxY: 5 } },
-    // 6. Cubículos Este Norte
-    { char: 'empleada', startX: 91, startY: 29, bounds: { minX: 90, maxX: 92, minY: 28, maxY: 31 } },
-    // 7. Sala Suroeste Zona B
-    { char: 'empleado', startX: 11, startY: 40, bounds: { minX: 10, maxX: 13, minY: 39, maxY: 41 } },
-    // 8. Recepción Derecha Zona B
-    { char: 'empleada', startX: 68, startY: 51, bounds: { minX: 67, maxX: 70, minY: 49, maxY: 52 } },
-    // 9. Pasillo Sur Oeste
-    { char: 'empleado', startX: 14, startY: 49, bounds: { minX: 12, maxX: 17, minY: 48, maxY: 51 } },
-    // 10. Zona Archivo Sur Centro
-    { char: 'empleada', startX: 20, startY: 49, bounds: { minX: 18, maxX: 23, minY: 48, maxY: 51 } },
-    // 11. Sala Sureste Fondo Zona Norte
-    { char: 'empleado', startX: 91, startY: 46, bounds: { minX: 89, maxX: 94, minY: 45, maxY: 47 } },
-    // 12. Sala Sureste Fondo Zona Sur
-    { char: 'empleada', startX: 92, startY: 48, bounds: { minX: 89, maxX: 94, minY: 48, maxY: 49 } },
-    // 13. Sala Noreste
-    { char: 'empleado', startX: 95, startY: 6, bounds: { minX: 94, maxX: 96, minY: 4, maxY: 8 } },
-    // 14. Oficina Central Superior Zona Oeste
-    { char: 'empleada', startX: 49, startY: 3, bounds: { minX: 48, maxX: 50, minY: 2, maxY: 4 } },
-    // 15. Cubículos Este Zona Pasillo
-    { char: 'empleado', startX: 94, startY: 35, bounds: { minX: 92, maxX: 96, minY: 34, maxY: 36 } }
+    // 1. Reubicación solicitada por el usuario: Oficina Central Media (8x3)
+    { char: 'empleada', startX: 47, startY: 12, bounds: { minX: 44, maxX: 51, minY: 11, maxY: 13 } },
+    // 2. Oficina Central Superior (separado, en la parte alta)
+    { char: 'empleado', startX: 49, startY: 3, bounds: { minX: 47, maxX: 51, minY: 2, maxY: 4 } },
+    // 3. Trayecto WP0 -> WP1 (Pasillo Este Zona A)
+    { char: 'empleado', startX: 67, startY: 39, bounds: { minX: 63, maxX: 70, minY: 38, maxY: 39 } },
+    // 4. Trayecto WP0 -> WP1 (Pasillo Este Zona B)
+    { char: 'empleada', startX: 65, startY: 41, bounds: { minX: 61, maxX: 68, minY: 40, maxY: 41 } },
+    // 5. Trayecto WP1 -> WP2 (Corredor vertical cerca a cubículos)
+    { char: 'empleado', startX: 80, startY: 22, bounds: { minX: 79, maxX: 81, minY: 21, maxY: 23 } },
+    // 6. Trayecto WP1 -> WP2 (Pasillo cubículos este)
+    { char: 'empleada', startX: 83, startY: 25, bounds: { minX: 82, maxX: 85, minY: 24, maxY: 26 } },
+    // 7. Trayecto WP2 -> WP3 (Pasillo Noreste)
+    { char: 'empleado', startX: 70, startY: 11, bounds: { minX: 68, maxX: 72, minY: 10, maxY: 12 } },
+    // 8. Trayecto WP3 -> WP4 (Corredor Norte cerca a salas)
+    { char: 'empleada', startX: 55, startY: 11, bounds: { minX: 53, maxX: 57, minY: 10, maxY: 12 } },
+    // 9. Trayecto WP4 -> WP5 (Pasillo Noroeste tramo 1)
+    { char: 'empleado', startX: 20, startY: 10, bounds: { minX: 17, maxX: 23, minY: 9, maxY: 10 } },
+    // 10. Trayecto WP4 -> WP5 (Pasillo Noroeste tramo 2)
+    { char: 'empleada', startX: 26, startY: 10, bounds: { minX: 24, maxX: 28, minY: 9, maxY: 10 } },
+    // 11. Trayecto WP5 -> WP6 (Cafetería / Pasillo Oeste norte)
+    { char: 'empleado', startX: 12, startY: 19, bounds: { minX: 11, maxX: 14, minY: 18, maxY: 20 } },
+    // 12. Trayecto WP5 -> WP6 (Pasillo Oeste sur)
+    { char: 'empleada', startX: 15, startY: 23, bounds: { minX: 13, maxX: 17, minY: 22, maxY: 24 } },
+    // 13. Trayecto WP6 -> WP7 (Corredor Central horizontal tramo oeste)
+    { char: 'empleado', startX: 28, startY: 33, bounds: { minX: 26, maxX: 30, minY: 32, maxY: 34 } },
+    // 14. Trayecto WP6 -> WP7 (Corredor Central horizontal tramo medio)
+    { char: 'empleada', startX: 35, startY: 31, bounds: { minX: 33, maxX: 38, minY: 30, maxY: 32 } },
+    // 15. Trayecto WP7 -> WP8 (Pasillo Central sur)
+    { char: 'empleado', startX: 43, startY: 34, bounds: { minX: 41, maxX: 45, minY: 33, maxY: 35 } },
+    // 16. Trayecto WP7 -> WP8 (Salas Sur intermedias)
+    { char: 'empleada', startX: 41, startY: 39, bounds: { minX: 38, maxX: 43, minY: 38, maxY: 40 } },
+    // 17. Trayecto WP8 -> WP9 (Corredor Sur)
+    { char: 'empleado', startX: 45, startY: 51, bounds: { minX: 44, maxX: 47, minY: 50, maxY: 52 } },
+    // 18. Cercanías WP9 / Lobby Despedida
+    { char: 'empleada', startX: 53, startY: 51, bounds: { minX: 52, maxX: 55, minY: 50, maxY: 52 } }
 ];
 
 export class PresentationScene extends Phaser.Scene {
