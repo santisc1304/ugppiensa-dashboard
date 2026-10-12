@@ -96,13 +96,13 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                         </p>
                         <ul style="padding-left: 1.2rem; line-height: 1.6; font-size: 0.95rem;">
                             <li><strong>1. Revisión del organigrama:</strong> Mapeo de Direcciones, Subdirecciones y Grupos Internos de Trabajo (GIT).</li>
-                            <li><strong>2. Análisis normativo:</strong> Extracción de funciones y competencias de la Resolución 059 de 2026 e insumos PWA.</li>
+                            <li><strong>2. Análisis normativo:</strong> Extracción de funciones y competencias de la Resolución 059 de 2026 y manuales oficiales de la UGPP.</li>
                             <li><strong>3. Identificación de funcionarios clave:</strong> Caracterización de los roles representativos por dependencia.</li>
                             <li><strong>4. Espacios interactivos y minimapa:</strong> Adaptación digital del piso 2 y diseño del minimapa de navegación.</li>
                             <li><strong>5. Configuración de NPCs interactivos:</strong> Personajes con rutas dinámicas y diálogos adaptados a funcionarios reales.</li>
                             <li><strong>6. Creación de contenidos formativos:</strong>
                                 <ul style="margin-top: 0.2rem; margin-bottom: 0.2rem; padding-left: 1.4rem;">
-                                    <li><strong>Más de 200 trivias:</strong> Con justificación normativa basada en la Resolución 059 e insumos PWA.</li>
+                                    <li><strong>Más de 200 trivias:</strong> Con justificación normativa basada en la Resolución 059 y lineamientos institucionales.</li>
                                     <li><strong>40 casos de despacho:</strong> Situaciones prácticas de toma de decisiones cotidianas.</li>
                                     <li><strong>40 preguntas de opciones múltiples:</strong> Diseñadas para el juego «Lluvia de Preguntas».</li>
                                 </ul>
@@ -126,7 +126,7 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                     <h1>Resultados: Curva de Aprendizaje y Retención Normativa</h1>
                     
                     <div class="content-box border-emerald">
-                        <p>Se observa una asimilación progresiva y clara del conocimiento institucional (Resolución 059 y Organigrama). En los primeros días, el puntaje promedio rondaba el 60-70%. Hacia el final del piloto, la interacción repetitiva y la retroalimentación inmediata permitieron que los usuarios alcanzaran puntajes superiores al 90%, demostrando contundentemente la efectividad pedagógica de la herramienta frente a los métodos de lectura estáticos.</p>
+                        <p>Se observa una asimilación progresiva y contundente del conocimiento institucional (Resolución 059 y Organigrama) a lo largo de las semanas evaluadas. Mientras que en la primera semana (22 al 26 de septiembre) el puntaje promedio se ubicaba por debajo del 20%, hacia la semana final registrada (5 al 9 de octubre) la interacción repetitiva y la retroalimentación inmediata impulsaron el rendimiento por encima del 54% promedio global con picos superiores al 85-90% en módulos clave, certificando la efectividad pedagógica de la herramienta.</p>
                     </div>
 
                     <div class="chart-container" style="min-height: 350px;">
@@ -144,11 +144,11 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                     <div class="grid-2">
                         <div class="content-box border-pink">
                             <h3>Disminución Drástica de Errores</h3>
-                            <p>Paralelo al aumento de puntajes, la tasa de error por sesión cayó drásticamente de un promedio de 5 errores a casi 1 error por intento. Esto se traduce en el mundo real en una reducción proyectada de reprocesos operativos y fallas en la aplicación de normativas institucionales por parte de los servidores.</p>
+                            <p>Paralelo al aumento de puntajes, la tasa de error promedio por sesión se redujo de manera continua de más de 6.5 errores en la semana inicial a solo 1.5 errores en la semana del 5 al 9 de octubre. Esto se traduce en el entorno real en una reducción directa de reprocesos operativos y fallas en la aplicación normativa.</p>
                         </div>
                         <div class="content-box border-cyan">
                             <h3>Agilidad en Decisiones</h3>
-                            <p>La gamificación mejoró la agilidad cognitiva. Los funcionarios no solo responden de forma más precisa, sino más rápida. El tiempo promedio para completar los retos normativos se redujo de más de 80 segundos a menos de 50 segundos, reflejando altísima fluidez en el manejo de la información institucional.</p>
+                            <p>La gamificación fortaleció la agilidad cognitiva. Los funcionarios no solo responden con mayor precisión, sino con notable rapidez: el tiempo promedio estimado para resolver los retos normativos disminuyó de más de 80 segundos en los primeros días a cerca de 42 segundos en la semana final, reflejando dominio y fluidez en la información institucional.</p>
                         </div>
                     </div>
 
@@ -267,11 +267,11 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                     <div class="grid-2">
                         <div class="content-box border-pink">
                             <h3 style="color:#ec4899;">Rendimiento garantizado</h3>
-                            <p>Si la adopción fue masiva en 2.5 semanas usando WhatsApp, el despliegue con canales oficiales asegurará cumplir sobradamente la meta del 70% de los 600 funcionarios institucionales.</p>
+                            <p>Si la adopción fue masiva en 2.5 semanas usando canales iniciales, la integración oficial a la intranet institucional (servicios Kubernetes 2021) garantizará cumplir y superar la meta del 70% de los 600 funcionarios institucionales.</p>
                         </div>
                         <div class="content-box border-emerald">
-                            <h3 style="color:#10b981;">Motor de Inducción Permanente</h3>
-                            <p>A futuro, UGPPIENSA servirá como la base interactiva de inmersión y entrenamiento para cada nuevo colaborador que ingrese a la UGPP, asegurando una cultura vibrante y moderna.</p>
+                            <h3 style="color:#10b981;">Motor de Inducción y Gestor Documental</h3>
+                            <p>A futuro, UGPPIENSA servirá como la base interactiva de inmersión y entrenamiento continuo para cada colaborador, integrando un gestor documental dinámico para normativas y resoluciones de Gestión Humana.</p>
                         </div>
                     </div>
                 `
@@ -296,7 +296,7 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                         </div>
                         <div class="content-box border-pink">
                             <h3 style="color: #ec4899;">El Siguiente Paso</h3>
-                            <p>La plataforma está lista para consolidarse como el motor oficial de inducción, entrenamiento normativo continuo y bienestar para los más de 600 funcionarios de la UGPP.</p>
+                            <p>Al ganar el concurso, el proyecto se adaptará al formato oficial de soluciones tecnológicas de la intranet institucional, alineándose con la metodología de implementación en servicios Kubernetes (año 2021). Además, la plataforma evolucionará no solo para cumplir su función actual, sino como un <strong>gestor documental inteligente</strong> que permitirá a Gestión Humana cargar resoluciones nuevas o vigentes, permitiendo a los funcionarios apropiar las normas mediante preguntas guiadas, procesos dinámicos y juegos formativos.</p>
                         </div>
                     </div>
 

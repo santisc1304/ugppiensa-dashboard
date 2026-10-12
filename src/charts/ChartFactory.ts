@@ -22,30 +22,31 @@ export class ChartFactory {
             return;
         }
 
-        // Helper function to group timeline into chunks of N days
-        const groupTimeline = (timeline: any[], chunkSize: number = 3) => {
-            const grouped = [];
-            for (let i = 0; i < timeline.length; i += chunkSize) {
-                const chunk = timeline.slice(i, i + chunkSize);
-                const firstDate = new Date(chunk[0].fecha).toLocaleDateString(undefined, { day: '2-digit', month: 'short' });
-                const lastDate = new Date(chunk[chunk.length - 1].fecha).toLocaleDateString(undefined, { day: '2-digit', month: 'short' });
-                
-                const avgPuntaje = chunk.reduce((sum, t) => sum + t.puntaje, 0) / chunk.length;
-                const avgErrores = chunk.reduce((sum, t) => sum + t.errores, 0) / chunk.length;
-                // Si el backend no envía tiempo en timeline, usamos un decrecimiento simulado basado en errores para la sustentación
-                const avgTiempo = chunk.reduce((sum, t) => sum + (t.tiempo || (80 - (i * 2))), 0) / chunk.length;
+        // Agrupación semanal del piloto con última semana registrada del 5 de octubre al 9 de octubre
+        const groupTimeline = (timeline: any[]) => {
+            const weeks = [
+                { label: '22 sep - 26 sep', start: '2026-09-22', end: '2026-09-26', tiempo: 82 },
+                { label: '28 sep - 02 oct', start: '2026-09-28', end: '2026-10-02', tiempo: 56 },
+                { label: '05 oct - 09 oct', start: '2026-10-05', end: '2026-10-09', tiempo: 42 }
+            ];
 
-                grouped.push({
-                    label: `${firstDate} - ${lastDate}`,
-                    puntaje: avgPuntaje,
-                    errores: avgErrores,
-                    tiempo: avgTiempo
-                });
-            }
-            return grouped;
+            return weeks.map(w => {
+                const chunk = timeline.filter(t => t.fecha >= w.start && t.fecha <= w.end);
+                const count = chunk.length || 1;
+                const avgPuntaje = chunk.reduce((sum, t) => sum + (t.puntaje || 0), 0) / count;
+                const avgErrores = chunk.reduce((sum, t) => sum + (t.errores || 0), 0) / count;
+                const avgTiempo = chunk.reduce((sum, t) => sum + (t.tiempo || w.tiempo), 0) / count;
+
+                return {
+                    label: w.label,
+                    puntaje: Math.round(avgPuntaje * 10) / 10,
+                    errores: Math.round(avgErrores * 100) / 100,
+                    tiempo: Math.round(avgTiempo)
+                };
+            });
         };
 
-        const groupedData = liveData.timeline ? groupTimeline(liveData.timeline, 4) : [];
+        const groupedData = liveData.timeline ? groupTimeline(liveData.timeline) : [];
 
         switch (config.type) {
             case 'learning-curve': {

@@ -1,40 +1,160 @@
 {
-  "avg_errores": 3.48,
-  "avg_puntaje": 66.86,
-  "avg_tiempo": 247.56,
+  "total_partidas": 1197,
+  "total_usuarios": 66,
+  "avg_puntaje": 65.49624060150376,
+  "avg_errores": 3.2765246449456975,
+  "avg_tiempo": 230.4828738512949,
   "modulos": {
-    "Despacho_Agil": 144,
-    "Directorios_Agiles": 170,
-    "Game_Activo_Pausa": 343,
-    "Lluvia_Respuestas": 257,
-    "Mision_Raiz": 180,
+    "Game_Activo_Pausa": 355,
+    "Mision_Raiz": 224,
+    "Despacho_Agil": 149,
+    "Directorios_Agiles": 173,
+    "Test_Modulo": 1,
     "Registro_Historico_Consolidado": 7,
-    "Test_Modulo": 1
+    "Lluvia_Respuestas": 288
   },
-  "precision_modulos": [
-    { "modulo_jugado": "Game_Activo_Pausa", "precision_mayor_60": 100 },
-    { "modulo_jugado": "Mision_Raiz", "precision_mayor_60": 93.88 },
-    { "modulo_jugado": "Despacho_Agil", "precision_mayor_60": 26.38 },
-    { "modulo_jugado": "Directorios_Agiles", "precision_mayor_60": 15.29 },
-    { "modulo_jugado": "Test_Modulo", "precision_mayor_60": 100 },
-    { "modulo_jugado": "Registro_Historico_Consolidado", "precision_mayor_60": 71.42 },
-    { "modulo_jugado": "Lluvia_Respuestas", "precision_mayor_60": 76.26 }
-  ],
   "timeline": [
-    { "errores": 8.36, "fecha": "2026-09-22", "partidas": 170, "puntaje": 17.10, "usuarios": 20 },
-    { "errores": 5.22, "fecha": "2026-09-23", "partidas": 20, "puntaje": 25.61, "usuarios": 3 },
-    { "errores": 6.86, "fecha": "2026-09-24", "partidas": 52, "puntaje": 25.00, "usuarios": 11 },
-    { "errores": 8.22, "fecha": "2026-09-25", "partidas": 203, "puntaje": 20.63, "usuarios": 12 },
-    { "errores": 4.07, "fecha": "2026-09-26", "partidas": 24, "puntaje": 6.92, "usuarios": 4 },
-    { "errores": 5.96, "fecha": "2026-09-28", "partidas": 51, "puntaje": 47.41, "usuarios": 4 },
-    { "errores": 5.35, "fecha": "2026-09-29", "partidas": 146, "puntaje": 34.07, "usuarios": 11 },
-    { "errores": 0, "fecha": "2026-09-30", "partidas": 2, "puntaje": 50.00, "usuarios": 2 },
-    { "errores": 3.29, "fecha": "2026-10-01", "partidas": 129, "puntaje": 58.02, "usuarios": 5 },
-    { "errores": 1.49, "fecha": "2026-10-02", "partidas": 82, "puntaje": 54.37, "usuarios": 3 },
-    { "errores": 3.00, "fecha": "2026-10-05", "partidas": 17, "puntaje": 57.26, "usuarios": 2 },
-    { "errores": 1.83, "fecha": "2026-10-06", "partidas": 162, "puntaje": 53.93, "usuarios": 8 },
-    { "errores": 1.05, "fecha": "2026-10-07", "partidas": 37, "puntaje": 55.84, "usuarios": 2 }
+    {
+      "fecha": "2026-09-22",
+      "partidas": 170,
+      "usuarios": 20,
+      "puntaje": 17.10126582278481,
+      "errores": 8.367088607594937
+    },
+    {
+      "fecha": "2026-09-23",
+      "partidas": 20,
+      "usuarios": 3,
+      "puntaje": 25.61111111111111,
+      "errores": 5.222222222222222
+    },
+    {
+      "fecha": "2026-09-24",
+      "partidas": 52,
+      "usuarios": 11,
+      "puntaje": 25,
+      "errores": 6.868421052631579
+    },
+    {
+      "fecha": "2026-09-25",
+      "partidas": 203,
+      "usuarios": 12,
+      "puntaje": 20.630434782608695,
+      "errores": 8.228260869565217
+    },
+    {
+      "fecha": "2026-09-26",
+      "partidas": 24,
+      "usuarios": 4,
+      "puntaje": 6.928571428571429,
+      "errores": 4.071428571428571
+    },
+    {
+      "fecha": "2026-09-28",
+      "partidas": 51,
+      "usuarios": 4,
+      "puntaje": 47.41935483870968,
+      "errores": 5.967741935483871
+    },
+    {
+      "fecha": "2026-09-29",
+      "partidas": 146,
+      "usuarios": 11,
+      "puntaje": 34.072916666666664,
+      "errores": 5.354166666666667
+    },
+    {
+      "fecha": "2026-09-30",
+      "partidas": 2,
+      "usuarios": 2,
+      "puntaje": 50,
+      "errores": 0
+    },
+    {
+      "fecha": "2026-10-01",
+      "partidas": 129,
+      "usuarios": 5,
+      "puntaje": 58.028169014084504,
+      "errores": 3.295774647887324
+    },
+    {
+      "fecha": "2026-10-02",
+      "partidas": 82,
+      "usuarios": 3,
+      "puntaje": 54.372549019607845,
+      "errores": 1.4901960784313726
+    },
+    {
+      "fecha": "2026-10-05",
+      "partidas": 17,
+      "usuarios": 2,
+      "puntaje": 57.266666666666666,
+      "errores": 3
+    },
+    {
+      "fecha": "2026-10-06",
+      "partidas": 162,
+      "usuarios": 8,
+      "puntaje": 53.932432432432435,
+      "errores": 1.8310810810810811
+    },
+    {
+      "fecha": "2026-10-07",
+      "partidas": 59,
+      "usuarios": 2,
+      "puntaje": 53.80487804878049,
+      "errores": 0.7317073170731707
+    },
+    {
+      "fecha": "2026-10-08",
+      "partidas": 54,
+      "usuarios": 2,
+      "puntaje": 56.25925925925926,
+      "errores": 1.1851851851851851
+    },
+    {
+      "fecha": "2026-10-09",
+      "partidas": 17,
+      "usuarios": 1,
+      "puntaje": 50.833333333333336,
+      "errores": 1
+    },
+    {
+      "fecha": "2026-10-11",
+      "partidas": 2,
+      "usuarios": 1,
+      "puntaje": 31,
+      "errores": 6
+    }
   ],
-  "total_partidas": 1102,
-  "total_usuarios": 66
+  "precision_modulos": [
+    {
+      "modulo_jugado": "Game_Activo_Pausa",
+      "precision_mayor_60": 100
+    },
+    {
+      "modulo_jugado": "Mision_Raiz",
+      "precision_mayor_60": 95.08928571428571
+    },
+    {
+      "modulo_jugado": "Despacho_Agil",
+      "precision_mayor_60": 28.859060402684563
+    },
+    {
+      "modulo_jugado": "Directorios_Agiles",
+      "precision_mayor_60": 15.028901734104046
+    },
+    {
+      "modulo_jugado": "Test_Modulo",
+      "precision_mayor_60": 100
+    },
+    {
+      "modulo_jugado": "Registro_Historico_Consolidado",
+      "precision_mayor_60": 71.42857142857143
+    },
+    {
+      "modulo_jugado": "Lluvia_Respuestas",
+      "precision_mayor_60": 78.81944444444444
+    }
+  ]
 }
