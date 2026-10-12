@@ -9,7 +9,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Proyecto UGPPIENSA</h1>
-                    <h2>Apropiación del conocimiento institucional y bienestar gamificado en la UGPP</h2>
                     
                     <div class="content-box border-cyan">
                         <p style="font-size: 1.4rem; text-align: center; color: #38bdf8; font-style: italic;">
@@ -34,7 +33,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Desafío Organizacional y Oportunidad</h1>
-                    <h2>La comunicación interna pasiva limita el empoderamiento</h2>
                     
                     <div class="grid-2">
                         <div class="content-box border-cyan">
@@ -62,7 +60,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Transformación y Beneficios</h1>
-                    <h2>De una lectura pasiva a una participación inmersiva</h2>
                     
                     <div class="content-box border-cyan">
                         <p>Superar los métodos tradicionales mediante la innovación y gamificación en recursos humanos desbloquea beneficios transformadores, consolidando un aprendizaje auto-dirigido y sostenido.</p>
@@ -92,7 +89,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Metodología de Desarrollo</h1>
-                    <h2>Estructuración integral de los contenidos misionales</h2>
                     
                     <div class="content-box border-cyan">
                         <p style="font-size: 1.05rem; margin-bottom: 0.8rem;">
@@ -128,7 +124,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Resultados: Curva de Aprendizaje y Retención Normativa</h1>
-                    <h2>Asimilación progresiva y comprobada de la Resolución 059</h2>
                     
                     <div class="content-box border-emerald">
                         <p>Se observa una asimilación progresiva y clara del conocimiento institucional (Resolución 059 y Organigrama). En los primeros días, el puntaje promedio rondaba el 60-70%. Hacia el final del piloto, la interacción repetitiva y la retroalimentación inmediata permitieron que los usuarios alcanzaran puntajes superiores al 90%, demostrando contundentemente la efectividad pedagógica de la herramienta frente a los métodos de lectura estáticos.</p>
@@ -145,7 +140,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Resultados: Disminución de Errores Operativos</h1>
-                    <h2>Mitigación de riesgo y precisión en la toma de decisiones</h2>
                     
                     <div class="grid-2">
                         <div class="content-box border-pink">
@@ -169,7 +163,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Resultados: Desglose de Participación y Módulos</h1>
-                    <h2>Equilibrio Funcional y Preferencia Orgánica</h2>
                     
                     <div class="grid-2">
                         <div class="content-box border-emerald">
@@ -193,7 +186,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Evaluación de Indicadores Acordados</h1>
-                    <h2>Proyección de Cumplimiento y Sustentación Técnica Integral</h2>
                     
                     <div class="grid-2" style="gap: 1.2rem; margin-bottom: 1.2rem;">
                         <div class="content-box border-emerald" style="margin-bottom: 0; padding: 1.25rem;">
@@ -266,7 +258,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>Conclusión y Viabilidad Estratégica</h1>
-                    <h2>Un Modelo 100% Sostenible y Escalable</h2>
                     
                     <div class="content-box border-cyan">
                         <h3>Sostenibilidad y Recursos Internos</h3>
@@ -290,7 +281,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
             return {
                 html: `
                     <h1>¡Muchas Gracias!</h1>
-                    <h2>Cierre de la Presentación y Proyección Futura</h2>
                     
                     <div class="content-box border-cyan" style="text-align: center; padding: 2rem;">
                         <p style="font-size: 1.45rem; color: #38bdf8; font-style: italic; margin-bottom: 0.6rem; line-height: 1.6;">
