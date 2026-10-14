@@ -64,7 +64,7 @@ const ROAMING_ZONES: RoamingZone[] = [
     { char: 'empleada', startX: 53, startY: 51, bounds: { minX: 52, maxX: 55, minY: 50, maxY: 52 } }
 ];
 
-// 7 NPCs específicos con los que interactúa el personaje entre la primera sección y la despedida
+// 8 NPCs específicos con los que interactúa el personaje entre la primera sección y la despedida (Waypoints 1 a 8)
 const INTERACTION_NPCS: { name: string; skin: 'empleada' | 'empleado' }[] = [
     { name: 'Beisa Caraballo', skin: 'empleada' },
     { name: 'Nubia Lopez', skin: 'empleada' },
@@ -72,6 +72,7 @@ const INTERACTION_NPCS: { name: string; skin: 'empleada' | 'empleado' }[] = [
     { name: 'Karen Ayos', skin: 'empleada' },
     { name: 'Arnol Guerrero', skin: 'empleado' },
     { name: 'Ana Milena', skin: 'empleada' },
+    { name: 'Carlos Naranjo', skin: 'empleado' },
     { name: 'Berenice Cortés', skin: 'empleada' }
 ];
 
@@ -161,11 +162,11 @@ export class PresentationScene extends Phaser.Scene {
             }
         ).setOrigin(0.5).setDepth(15);
 
-        // NPCs de interacción en cada una de las 7 estaciones intermedias (Waypoints 1 a 7)
-        // No hay NPCs en la primera sección (Waypoint 0 / Slide 0) ni en la despedida (Waypoints 8 y 9 / Cierre)
+        // NPCs de interacción en cada una de las 8 estaciones intermedias (Waypoints 1 a 8)
+        // No hay NPCs en la primera sección (Waypoint 0 / Slide 0) ni en la despedida (Waypoint 9 / Cierre)
         this.npcDataList = INTERACTION_NPCS;
         INTERACTION_NPCS.forEach((npcData, index) => {
-            const wpIndex = index + 1; // Waypoint 1 hasta 7
+            const wpIndex = index + 1; // Waypoint 1 hasta 8
             const wp = WAYPOINTS_CONFIG[wpIndex];
             if (!wp) return;
 
