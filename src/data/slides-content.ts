@@ -270,8 +270,8 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                             <p>Si la adopción fue masiva en 2.5 semanas usando canales iniciales, la integración oficial a la intranet institucional (servicios Kubernetes 2021) garantizará cumplir y superar la meta del 70% de los 600 funcionarios institucionales.</p>
                         </div>
                         <div class="content-box border-emerald">
-                            <h3 style="color:#10b981;">Motor de Inducción y Gestor Documental</h3>
-                            <p>A futuro, UGPPIENSA servirá como la base interactiva de inmersión y entrenamiento continuo para cada colaborador, integrando un gestor documental dinámico para normativas y resoluciones de Gestión Humana.</p>
+                            <h3 style="color:#10b981;">Motor de Inducción y Gestor de Información</h3>
+                            <p>A futuro, UGPPIENSA servirá como la base interactiva de inmersión y entrenamiento continuo para cada colaborador, integrando un gestor de información dinámico para normativas y resoluciones de Gestión Humana.</p>
                         </div>
                     </div>
                 `
@@ -280,15 +280,6 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
         case 'slide_9':
             return {
                 html: `
-                    <h1>¡Muchas Gracias!</h1>
-                    
-                    <div class="content-box border-cyan" style="text-align: center; padding: 2rem;">
-                        <p style="font-size: 1.45rem; color: #38bdf8; font-style: italic; margin-bottom: 0.6rem; line-height: 1.6;">
-                            "Conectando información transformamos procesos;<br>conectando propósito transformamos personas."
-                        </p>
-                        <span style="font-size: 0.95rem; color: #94a3b8; font-weight: 500;">— Filosofía Institucional UGPPIENSA —</span>
-                    </div>
-
                     <div class="grid-2">
                         <div class="content-box border-emerald">
                             <h3 style="color: #10b981;">Gratitud y Compromiso</h3>
@@ -296,13 +287,13 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                         </div>
                         <div class="content-box border-pink">
                             <h3 style="color: #ec4899;">El Siguiente Paso</h3>
-                            <p>Al ganar el concurso, el proyecto se adaptará al formato oficial de soluciones tecnológicas de la intranet institucional, alineándose con la metodología de implementación en servicios Kubernetes (año 2021). Además, la plataforma evolucionará no solo para cumplir su función actual, sino como un <strong>gestor documental inteligente</strong> que permitirá a Gestión Humana cargar resoluciones nuevas o vigentes, permitiendo a los funcionarios apropiar las normas mediante preguntas guiadas, procesos dinámicos y juegos formativos.</p>
+                            <p>Al ganar el concurso, el proyecto se adaptará al formato oficial de soluciones tecnológicas de la intranet institucional, alineándose con la metodología de implementación en servicios Kubernetes (año 2021). Además, la plataforma evolucionará no solo para cumplir su función actual, sino como un <strong>gestor de información inteligente</strong> que permitirá a Gestión Humana cargar resoluciones nuevas o vigentes, permitiendo a los funcionarios apropiar las normas mediante preguntas guiadas, procesos dinámicos y juegos formativos.</p>
                         </div>
                     </div>
 
-                    <div class="content-box border-cyan" style="text-align: center; padding: 1.2rem;">
-                        <p style="font-size: 1.15rem; color: #f8fafc; margin: 0;">
-                            ✨ <strong>¡Bienvenidos al futuro del aprendizaje y bienestar institucional en la UGPP!</strong> ✨
+                    <div class="content-box border-cyan" style="text-align: center; padding: 1.8rem 2rem;">
+                        <p style="font-size: 1.12rem; color: #f8fafc; margin: 0; line-height: 1.65; font-weight: 500;">
+                            "UGPpiensa nos ha demostrado con métricas rigurosas que cuando transformamos un manual aburrido en un reto interactivo, no solo optimizamos procesos: devolvemos el entusiasmo a los funcionarios que trabajan detrás del escritorio. Porque al final del día, las grandes transformaciones del Estado no ocurren cuando conectamos computadoras o servidores técnicos; ocurren cuando logramos conectar el conocimiento con el propósito de las personas. Los invito a que dejemos de ser lectores pasivos  y nos convirtamos en los jugadores activos del cambio. ¡Muchas gracias!"
                         </p>
                     </div>
                 `

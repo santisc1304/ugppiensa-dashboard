@@ -49,15 +49,14 @@ export class StartScene extends Phaser.Scene {
         lineGraphics.lineBetween(width / 2 - 160, cardY + 145, width / 2 + 160, cardY + 145);
 
         // Slogan
-        this.add.text(width / 2, cardY + 205, '«Conectando información transformamos procesos;\nconectando propósito transformamos personas»', {
-            fontSize: '26px',
+        this.add.text(width / 2, cardY + 205, '«Conectando propósito»', {
+            fontSize: '32px',
             color: '#38bdf8',
             fontFamily: 'Inter, sans-serif',
             fontStyle: 'italic',
             align: 'center',
             stroke: '#0a0f1e',
             strokeThickness: 3,
-            lineSpacing: 8,
             shadow: { offsetX: 0, offsetY: 2, color: '#000000', blur: 6, fill: true }
         }).setOrigin(0.5);
 
