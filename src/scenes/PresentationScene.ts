@@ -452,8 +452,10 @@ export class PresentationScene extends Phaser.Scene {
         this.player.stop();
         this.isMoving = false;
 
-        if (this.currentWaypointIndex > 0) {
-            // El jugador queda de espaldas mirando hacia el NPC/escritorio (norte)
+        const isFarewell = this.currentWaypointIndex === WAYPOINTS_CONFIG.length - 1;
+
+        if (this.currentWaypointIndex > 0 && !isFarewell) {
+            // En las estaciones intermedias con NPC, el jugador queda de espaldas mirando hacia el NPC/escritorio (norte)
             this.player.setTexture('empleado_idle_up');
 
             const npcIndex = this.currentWaypointIndex - 1;
@@ -465,7 +467,7 @@ export class PresentationScene extends Phaser.Scene {
                 npc.setTexture(`${npcData.skin}_idle_down`); 
             }
         } else {
-            // En el inicio (slide 0 / spawn) el jugador mira hacia el frente
+            // En el inicio (slide 0 / spawn) y en la despedida final (slide 9 / cierre), el jugador queda de frente mirando a la cámara
             this.player.setTexture('empleado_idle_down');
         }
     }
