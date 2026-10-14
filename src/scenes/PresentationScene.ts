@@ -64,10 +64,23 @@ const ROAMING_ZONES: RoamingZone[] = [
     { char: 'empleada', startX: 53, startY: 51, bounds: { minX: 52, maxX: 55, minY: 50, maxY: 52 } }
 ];
 
+// 7 NPCs específicos con los que interactúa el personaje entre la primera sección y la despedida
+const INTERACTION_NPCS: { name: string; skin: 'empleada' | 'empleado' }[] = [
+    { name: 'Beisa Caraballo', skin: 'empleada' },
+    { name: 'Nubia Lopez', skin: 'empleada' },
+    { name: 'Mario Gomez', skin: 'empleado' },
+    { name: 'Karen Ayos', skin: 'empleada' },
+    { name: 'Arnol Guerrero', skin: 'empleado' },
+    { name: 'Ana Milena', skin: 'empleada' },
+    { name: 'Berenice Cortés', skin: 'empleada' }
+];
+
 export class PresentationScene extends Phaser.Scene {
     private map!: Phaser.Tilemaps.Tilemap;
     private player!: Phaser.Physics.Arcade.Sprite;
+    private playerNameTag!: Phaser.GameObjects.Text;
     private npcs: Phaser.Physics.Arcade.Sprite[] = [];
+    private npcDataList: { name: string; skin: 'empleada' | 'empleado' }[] = [];
     private roamingNPCs: Phaser.Physics.Arcade.Sprite[] = [];
     private currentWaypointIndex: number = 0;
     private isMoving: boolean = false;
@@ -133,18 +146,52 @@ export class PresentationScene extends Phaser.Scene {
         this.player.setDepth(10);
         this.player.setScale(2);
 
-        // NPCs de interacción en cada estación
-        WAYPOINTS_CONFIG.forEach((wp, index) => {
-            if (index === 0) return;
-            
+        // Etiqueta flotante del Jugador: "Super Mario Piensa"
+        this.playerNameTag = this.add.text(
+            this.player.x,
+            this.player.y - 36,
+            'Super Mario Piensa',
+            {
+                fontFamily: '"Plus Jakarta Sans", -apple-system, sans-serif',
+                fontSize: '10px',
+                fontStyle: 'bold',
+                color: '#38bdf8',
+                backgroundColor: '#0f172a',
+                padding: { x: 6, y: 2 }
+            }
+        ).setOrigin(0.5).setDepth(15);
+
+        // NPCs de interacción en cada una de las 7 estaciones intermedias (Waypoints 1 a 7)
+        // No hay NPCs en la primera sección (Waypoint 0 / Slide 0) ni en la despedida (Waypoints 8 y 9 / Cierre)
+        this.npcDataList = INTERACTION_NPCS;
+        INTERACTION_NPCS.forEach((npcData, index) => {
+            const wpIndex = index + 1; // Waypoint 1 hasta 7
+            const wp = WAYPOINTS_CONFIG[wpIndex];
+            if (!wp) return;
+
             const npc = this.physics.add.sprite(
                 wp.tileX * tileWidth + tileWidth / 2,
-                (wp.tileY - 1) * tileHeight + tileHeight / 2, 
-                'empleada_idle_down'
+                (wp.tileY - 1) * tileHeight + tileHeight / 2,
+                `${npcData.skin}_idle_down`
             );
             npc.setDepth(9);
             npc.setScale(2);
             this.npcs.push(npc);
+
+            // Etiqueta de nombre sobre la cabeza del NPC (estilo idéntico al juego original)
+            this.add.text(
+                npc.x,
+                npc.y - 36,
+                npcData.name,
+                {
+                    fontFamily: '"Plus Jakarta Sans", -apple-system, sans-serif',
+                    fontSize: '9.5px',
+                    fontStyle: 'bold',
+                    color: '#e2e8f0',
+                    backgroundColor: '#0f172a',
+                    padding: { x: 6, y: 2 }
+                }
+            ).setOrigin(0.5).setDepth(15);
         });
 
         // NPCs caminando por zonas seguras de la oficina
@@ -394,6 +441,12 @@ export class PresentationScene extends Phaser.Scene {
         });
     }
 
+    override update() {
+        if (this.player && this.playerNameTag) {
+            this.playerNameTag.setPosition(this.player.x, this.player.y - 36);
+        }
+    }
+
     private finishMovement() {
         this.player.stop();
         this.isMoving = false;
@@ -402,11 +455,13 @@ export class PresentationScene extends Phaser.Scene {
             // El jugador queda de espaldas mirando hacia el NPC/escritorio (norte)
             this.player.setTexture('empleado_idle_up');
 
-            const npc = this.npcs[this.currentWaypointIndex - 1]; 
-            if (npc) {
+            const npcIndex = this.currentWaypointIndex - 1;
+            const npc = this.npcs[npcIndex]; 
+            const npcData = this.npcDataList[npcIndex];
+            if (npc && npcData) {
                 npc.stop();
-                // El NPC queda de frente mirando al jugador y la cámara (sur)
-                npc.setTexture('empleada_idle_down'); 
+                // El NPC queda de frente mirando al jugador y la cámara (sur) con su respectiva skin
+                npc.setTexture(`${npcData.skin}_idle_down`); 
             }
         } else {
             // En el inicio (slide 0 / spawn) el jugador mira hacia el frente
