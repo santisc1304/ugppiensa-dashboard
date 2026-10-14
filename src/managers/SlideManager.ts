@@ -40,10 +40,11 @@ export class SlideManager {
 
         const liveData = await DataManager.fetchData();
 
-        const contentDiv = this.overlay.querySelector('.slide-content');
+        const contentDiv = this.overlay.querySelector('.slide-content') as HTMLElement;
         if (contentDiv) {
             const data = getSlideContent(slideId, liveData);
             contentDiv.innerHTML = data.html;
+            contentDiv.scrollTop = 0; // Reiniciar siempre el deslizador al inicio superior
 
             // Si el slide necesita gráficas, las inicializamos aquí
             if (data.chartConfig) {
@@ -53,6 +54,7 @@ export class SlideManager {
             }
         }
 
+        this.overlay.scrollTop = 0;
         this.overlay.classList.add('active');
         this.isSlideOpen = true;
         

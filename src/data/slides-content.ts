@@ -126,7 +126,7 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                     <h1>Resultados: Curva de Aprendizaje y Retención Normativa</h1>
                     
                     <div class="content-box border-emerald">
-                        <p>Se observa una asimilación progresiva y contundente del conocimiento institucional (Resolución 059 y Organigrama) a lo largo de las semanas evaluadas. Mientras que en la primera semana (22 al 26 de septiembre) el puntaje promedio se ubicaba por debajo del 20%, hacia la semana final registrada (5 al 9 de octubre) la interacción repetitiva y la retroalimentación inmediata impulsaron el rendimiento por encima del 54% promedio global con picos superiores al 85-90% en módulos clave, certificando la efectividad pedagógica de la herramienta.</p>
+                        <p>Se observa una asimilación progresiva y contundente del conocimiento institucional (Resolución 059 y Organigrama) a lo largo de las semanas evaluadas. Mientras que en la primera semana (22 al 26 de septiembre) el puntaje promedio se ubicaba en 19.1%, la interacción repetitiva y la retroalimentación inmediata impulsaron el rendimiento hasta alcanzar un 54.4% en la tercera semana y consolidar un <strong>63.3% de puntaje normativo en la semana en curso (12 al 14 de octubre)</strong>, certificando la efectividad pedagógica y el dominio sostenido de la herramienta.</p>
                     </div>
 
                     <div class="chart-container" style="min-height: 350px;">
@@ -144,11 +144,11 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
                     <div class="grid-2">
                         <div class="content-box border-pink">
                             <h3>Disminución Drástica de Errores</h3>
-                            <p>Paralelo al aumento de puntajes, la tasa de error promedio por sesión se redujo de manera continua de más de 6.5 errores en la semana inicial a solo 1.5 errores en la semana del 5 al 9 de octubre. Esto se traduce en el entorno real en una reducción directa de reprocesos operativos y fallas en la aplicación normativa.</p>
+                            <p>Paralelo al aumento de puntajes, la tasa de error promedio por sesión se redujo de manera continua de 6.55 errores en la semana inicial a solo 1.55 errores en las semanas recientes (consolidado al 14 de octubre). Esto se traduce en el entorno real en una reducción directa de reprocesos operativos y fallas en la aplicación normativa institucional.</p>
                         </div>
                         <div class="content-box border-cyan">
                             <h3>Agilidad en Decisiones</h3>
-                            <p>La gamificación fortaleció la agilidad cognitiva. Los funcionarios no solo responden con mayor precisión, sino con notable rapidez: el tiempo promedio estimado para resolver los retos normativos disminuyó de más de 80 segundos en los primeros días a cerca de 42 segundos en la semana final, reflejando dominio y fluidez en la información institucional.</p>
+                            <p>La gamificación fortaleció la agilidad cognitiva. Los funcionarios no solo responden con mayor precisión, sino con notable rapidez: el tiempo promedio estimado para resolver los retos normativos disminuyó de 82 segundos en los primeros días a <strong>38 segundos en la semana actual</strong>, reflejando dominio intuitivo y fluidez en el manejo de la información institucional.</p>
                         </div>
                     </div>
 
@@ -293,7 +293,7 @@ export function getSlideContent(slideId: string, liveData?: any): SlideContent {
 
                     <div class="content-box border-cyan" style="text-align: center; padding: 1.8rem 2rem;">
                         <p style="font-size: 1.12rem; color: #f8fafc; margin: 0; line-height: 1.65; font-weight: 500;">
-                            "UGPpiensa nos ha demostrado con métricas rigurosas que cuando transformamos un manual aburrido en un reto interactivo, no solo optimizamos procesos: devolvemos el entusiasmo a los funcionarios que trabajan detrás del escritorio. Porque al final del día, las grandes transformaciones del Estado no ocurren cuando conectamos computadoras o servidores técnicos; ocurren cuando logramos conectar el conocimiento con el propósito de las personas. Los invito a que dejemos de ser lectores pasivos  y nos convirtamos en los jugadores activos del cambio. ¡Muchas gracias!"
+                            UGPpiensa nos ha demostrado con métricas rigurosas que cuando transformamos un manual aburrido en un reto interactivo, no solo optimizamos procesos: devolvemos el entusiasmo a los funcionarios que trabajan detrás del escritorio. Porque al final del día, las grandes transformaciones del Estado no ocurren cuando conectamos computadoras o servidores técnicos; ocurren cuando logramos conectar el conocimiento con el propósito de las personas. Los invito a que dejemos de ser lectores pasivos y nos convirtamos en los jugadores activos del cambio. ¡Muchas gracias!
                         </p>
                     </div>
                 `

@@ -1,17 +1,17 @@
 {
-  "total_partidas": 1197,
-  "total_usuarios": 66,
-  "avg_puntaje": 65.49624060150376,
-  "avg_errores": 3.2765246449456975,
-  "avg_tiempo": 230.4828738512949,
+  "total_partidas": 1236,
+  "total_usuarios": 67,
+  "avg_puntaje": 65.11893203883496,
+  "avg_errores": 3.2144012944983817,
+  "avg_tiempo": 224.43851132686083,
   "modulos": {
-    "Game_Activo_Pausa": 355,
-    "Mision_Raiz": 224,
-    "Despacho_Agil": 149,
-    "Directorios_Agiles": 173,
-    "Test_Modulo": 1,
+    "Despacho_Agil": 150,
+    "Directorios_Agiles": 174,
+    "Game_Activo_Pausa": 361,
+    "Lluvia_Respuestas": 316,
+    "Mision_Raiz": 227,
     "Registro_Historico_Consolidado": 7,
-    "Lluvia_Respuestas": 288
+    "Test_Modulo": 1
   },
   "timeline": [
     {
@@ -125,6 +125,27 @@
       "usuarios": 1,
       "puntaje": 31,
       "errores": 6
+    },
+    {
+      "fecha": "2026-10-12",
+      "partidas": 6,
+      "usuarios": 1,
+      "puntaje": 69.66666666666667,
+      "errores": 0.8333333333333334
+    },
+    {
+      "fecha": "2026-10-13",
+      "partidas": 32,
+      "usuarios": 2,
+      "puntaje": 63.84615384615385,
+      "errores": 1.2307692307692308
+    },
+    {
+      "fecha": "2026-10-14",
+      "partidas": 1,
+      "usuarios": 1,
+      "puntaje": 10,
+      "errores": 14
     }
   ],
   "precision_modulos": [
@@ -134,15 +155,15 @@
     },
     {
       "modulo_jugado": "Mision_Raiz",
-      "precision_mayor_60": 95.08928571428571
+      "precision_mayor_60": 95.15418502202643
     },
     {
       "modulo_jugado": "Despacho_Agil",
-      "precision_mayor_60": 28.859060402684563
+      "precision_mayor_60": 28.666666666666668
     },
     {
       "modulo_jugado": "Directorios_Agiles",
-      "precision_mayor_60": 15.028901734104046
+      "precision_mayor_60": 14.942528735632184
     },
     {
       "modulo_jugado": "Test_Modulo",
@@ -154,7 +175,7 @@
     },
     {
       "modulo_jugado": "Lluvia_Respuestas",
-      "precision_mayor_60": 78.81944444444444
+      "precision_mayor_60": 80.69620253164557
     }
   ]
 }
